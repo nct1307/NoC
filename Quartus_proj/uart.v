@@ -1,0 +1,89 @@
+`timescale 1ns / 1ps
+
+//////////////////////////////////////////////////////////////////////////////////
+// Set Parameter CLKS_PER_BIT as follows:
+// CLKS_PER_BIT = (Frequency of i_Clock)/(Frequency of UART)
+// Example: 10 MHz Clock, 115200 baud UART
+// (10000000)/(115200) = 87
+
+module uart (
+    input  wire        clk,
+    input  wire        rst,
+    // Giao tiáº¿p vá»›i Wishbone Adapter (giá»‘ng module LED/Timer cá»§a báº¡n)
+    input  wire [ 1:0] addr_i,      // Láº¥y tá»« led_addr[3:2] nhÆ° Ä‘Ã£ tháº£o luáº­n
+    input  wire [31:0] write_data,
+    input  wire        write_en,
+    input  wire        i_uart_sel,
+    output reg  [31:0] read_data,
+
+    // ChÃ¢n váº­t lÃ½ ra bÃªn ngoÃ i
+    output wire uart_tx,
+    input  wire uart_rx
+);
+
+  // TÃ­n hiá»‡u trung gian káº¿t ná»‘i vá»›i module báº¡n sÆ°u táº§m
+  wire       tx_active;
+  wire       tx_done;
+  wire       rx_dv;
+  wire [7:0] rx_byte;
+  reg        tx_dv;
+
+    localparam clk_per_bit = 4; // for testing 
+
+  // 1. Module Transmitter (tá»« source cá»§a báº¡n)
+  uart_transmitter #(
+      .CLKS_PER_BIT(clk_per_bit) 
+  ) uart_tx_inst (
+      .i_Clock(clk),
+      .i_Tx_DV(tx_dv),
+      .i_Tx_Byte(write_data[7:0]),
+      .o_Tx_Active(tx_active),
+      .o_Tx_Serial(uart_tx),
+      .o_Tx_Done(tx_done)
+  );
+
+  // 2. Module Receiver (tá»« source cá»§a báº¡n)
+  uart_receiver #(
+      .CLKS_PER_BIT(clk_per_bit) 
+  ) uart_rx_inst (
+      .i_Clock(clk),
+      .i_Rx_Serial(uart_rx),
+      .o_Rx_DV(rx_dv),
+      .o_Rx_Byte(rx_byte)
+  );
+
+  reg r_rx_data_ready;  // Biáº¿n giá»¯ tráº¡ng thÃ¡i Ä‘á»ƒ CPU Ä‘á»?c
+
+  // 3. Logic Ä‘iá»?u khiá»ƒn (Giao tiáº¿p vá»›i RISC-V)
+  always @(posedge clk) begin
+    if (rst) begin
+      tx_dv <= 1'b0;
+      r_rx_data_ready <= 1'b0;
+    end else begin
+      // --- Logic cho Transmitter ---
+      if (i_uart_sel && write_en && (addr_i == 2'b00)) tx_dv <= 1'b1;
+      else tx_dv <= 1'b0;
+
+      // --- Logic cho Receiver ---
+      if (rx_dv) begin
+        r_rx_data_ready <= 1'b1;
+      end 
+      // CHá»ˆ XÃ“A KHI: CÃ³ lá»‡nh truy cáº­p THáº¬T (i_uart_sel) vÃ  lÃ  lá»‡nh Ä?á»ŒC (!write_en)
+      else if (i_uart_sel && !write_en && (addr_i == 2'b00)) begin
+        // Khi CPU thá»±c hiá»‡n lá»‡nh Ä?á»ŒC vÃ o Ä‘á»‹a chá»‰ Data (2'b00)
+        // Ta hiá»ƒu lÃ  CPU Ä‘Ã£ láº¥y hÃ ng xong -> Háº¡ cá»? xuá»‘ng
+        r_rx_data_ready <= 1'b0;
+      end
+    end
+  end
+  // 4. Logic Ä?á»?c (CPU kiá»ƒm tra tráº¡ng thÃ¡i)
+  always @(*) begin
+    case (addr_i)
+      2'b00:   read_data = {24'h0, rx_byte};
+      // Tráº£ vá»? r_rx_data_ready (Ä‘Ã£ Ä‘Æ°á»£c giá»¯) thay vÃ¬ rx_dv (xung ngáº¯n)
+      2'b01:   read_data = {30'h0, r_rx_data_ready, tx_active};
+      default: read_data = 32'h0;
+    endcase
+  end
+
+endmodule

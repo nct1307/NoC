@@ -1,0 +1,604 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do noc_proj_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/vcr_constants.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/rtr_constants.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_rr_arbiter_base.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_rr_arbiter_base
+# 
+# Top level modules:
+# 	c_rr_arbiter_base
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_interleave.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_interleave
+# 
+# Top level modules:
+# 	c_interleave
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_functions.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# 	--none--
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_constants.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_align.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_align
+# 
+# Top level modules:
+# 	c_align
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/Control_Unit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Control_Unit
+# 
+# Top level modules:
+# 	Control_Unit
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/Load_Store_Unit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Load_Store_Unit
+# 
+# Top level modules:
+# 	Load_Store_Unit
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/PC.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/instruction_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module instruction_Mem
+# 
+# Top level modules:
+# 	instruction_Mem
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/rf_32_32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rf_32_32
+# 
+# Top level modules:
+# 	rf_32_32
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/Sign_Extend.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Sign_Extend
+# 
+# Top level modules:
+# 	Sign_Extend
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/RV32I.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RV32I
+# 
+# Top level modules:
+# 	RV32I
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/Wishbone_Core_Adapter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Wishbone_Core_Adapter
+# 
+# Top level modules:
+# 	Wishbone_Core_Adapter
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/tile_core_wrapper.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tile_core_wrapper
+# 
+# Top level modules:
+# 	tile_core_wrapper
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/ni_core.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ni_core
+# 
+# Top level modules:
+# 	ni_core
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/tile_ram_wrapper.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tile_ram_wrapper
+# 
+# Top level modules:
+# 	tile_ram_wrapper
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/wb_ram_top.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wb_ram_top
+# 
+# Top level modules:
+# 	wb_ram_top
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/ram_slave_interface.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram_slave_interface
+# 
+# Top level modules:
+# 	ram_slave_interface
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/ram.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/timer.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	timer
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_timer.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wishbone_slave_adapter_timer
+# 
+# Top level modules:
+# 	wishbone_slave_adapter_timer
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/wb_timer_top.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wb_timer_top
+# 
+# Top level modules:
+# 	wb_timer_top
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/ni_ip.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ni_ip
+# 
+# Top level modules:
+# 	ni_ip
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/tile_timer_wrapper.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tile_timer_wrapper
+# 
+# Top level modules:
+# 	tile_timer_wrapper
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/led_matrix.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module led_matrix
+# 
+# Top level modules:
+# 	led_matrix
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_led_matrix.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wishbone_slave_adapter_led_matrix
+# 
+# Top level modules:
+# 	wishbone_slave_adapter_led_matrix
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/wb_led_matrix_top.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wb_led_matrix_top
+# 
+# Top level modules:
+# 	wb_led_matrix_top
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/tile_led_matrix_wrapper.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tile_led_matrix_wrapper
+# 
+# Top level modules:
+# 	tile_led_matrix_wrapper
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/gpio_basic.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module gpio_basic
+# 
+# Top level modules:
+# 	gpio_basic
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/wishbone_gpio.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wishbone_gpio
+# 
+# Top level modules:
+# 	wishbone_gpio
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/tile_gpio_wrapper.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tile_gpio_wrapper
+# 
+# Top level modules:
+# 	tile_gpio_wrapper
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/uart_receiver.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module uart_receiver
+# 
+# Top level modules:
+# 	uart_receiver
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/uart_transmitter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module uart_transmitter
+# 
+# Top level modules:
+# 	uart_transmitter
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/uart.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module uart
+# 
+# Top level modules:
+# 	uart
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/wb_uart_top.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wb_uart_top
+# 
+# Top level modules:
+# 	wb_uart_top
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_uart.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wishbone_slave_adapter_uart
+# 
+# Top level modules:
+# 	wishbone_slave_adapter_uart
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/tile_uart_wrapper.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tile_uart_wrapper
+# 
+# Top level modules:
+# 	tile_uart_wrapper
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/vcr_vc_alloc_sep_if.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vcr_vc_alloc_sep_if
+# 
+# Top level modules:
+# 	vcr_vc_alloc_sep_if
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/vcr_top.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vcr_top
+# 
+# Top level modules:
+# 	vcr_top
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/vcr_sw_alloc_sep_if.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vcr_sw_alloc_sep_if
+# 
+# Top level modules:
+# 	vcr_sw_alloc_sep_if
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/vcr_ovc_ctrl.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vcr_ovc_ctrl
+# 
+# Top level modules:
+# 	vcr_ovc_ctrl
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/vcr_op_ctrl_mac.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vcr_op_ctrl_mac
+# 
+# Top level modules:
+# 	vcr_op_ctrl_mac
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/vcr_ivc_ctrl.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vcr_ivc_ctrl
+# 
+# Top level modules:
+# 	vcr_ivc_ctrl
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/vcr_ip_ctrl_mac.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vcr_ip_ctrl_mac
+# 
+# Top level modules:
+# 	vcr_ip_ctrl_mac
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/vcr_alloc_mac.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vcr_alloc_mac
+# 
+# Top level modules:
+# 	vcr_alloc_mac
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/rtr_routing_logic.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rtr_routing_logic
+# 
+# Top level modules:
+# 	rtr_routing_logic
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/rtr_route_filter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rtr_route_filter
+# 
+# Top level modules:
+# 	rtr_route_filter
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/rtr_next_hop_addr.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rtr_next_hop_addr
+# 
+# Top level modules:
+# 	rtr_next_hop_addr
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/rtr_flow_ctrl_output.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rtr_flow_ctrl_output
+# 
+# Top level modules:
+# 	rtr_flow_ctrl_output
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/rtr_flow_ctrl_input.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rtr_flow_ctrl_input
+# 
+# Top level modules:
+# 	rtr_flow_ctrl_input
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/rtr_flit_type_check.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rtr_flit_type_check
+# 
+# Top level modules:
+# 	rtr_flit_type_check
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/rtr_flit_buffer.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rtr_flit_buffer
+# 
+# Top level modules:
+# 	rtr_flit_buffer
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/rtr_fc_state.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rtr_fc_state
+# 
+# Top level modules:
+# 	rtr_fc_state
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/rtr_crossbar_mac.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rtr_crossbar_mac
+# 
+# Top level modules:
+# 	rtr_crossbar_mac
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/rtr_channel_output.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rtr_channel_output
+# 
+# Top level modules:
+# 	rtr_channel_output
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/rtr_channel_input.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rtr_channel_input
+# 
+# Top level modules:
+# 	rtr_channel_input
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/parameters.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# 	--none--
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_select_mofn.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_select_mofn
+# 
+# Top level modules:
+# 	c_select_mofn
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_select_1ofn.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_select_1ofn
+# 
+# Top level modules:
+# 	c_select_1ofn
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_samq_tracker.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_samq_tracker
+# 
+# Top level modules:
+# 	c_samq_tracker
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_samq_ctrl.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_samq_ctrl
+# 
+# Top level modules:
+# 	c_samq_ctrl
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_rr_arbiter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_rr_arbiter
+# 
+# Top level modules:
+# 	c_rr_arbiter
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_regfile.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_regfile
+# 
+# Top level modules:
+# 	c_regfile
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_reduce_bits.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_reduce_bits
+# 
+# Top level modules:
+# 	c_reduce_bits
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_multi_hot_det.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_multi_hot_det
+# 
+# Top level modules:
+# 	c_multi_hot_det
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_lod.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_lod
+# 
+# Top level modules:
+# 	c_lod
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_incr.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_incr
+# 
+# Top level modules:
+# 	c_incr
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_fifo_tracker.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_fifo_tracker
+# 
+# Top level modules:
+# 	c_fifo_tracker
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_fifo_ctrl.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_fifo_ctrl
+# 
+# Top level modules:
+# 	c_fifo_ctrl
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_err_rpt.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_err_rpt
+# 
+# Top level modules:
+# 	c_err_rpt
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_encode.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_encode
+# 
+# Top level modules:
+# 	c_encode
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_dff.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_dff
+# 
+# Top level modules:
+# 	c_dff
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_decr.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_decr
+# 
+# Top level modules:
+# 	c_decr
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_decode.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_decode
+# 
+# Top level modules:
+# 	c_decode
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_crossbar.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_crossbar
+# 
+# Top level modules:
+# 	c_crossbar
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_binary_op.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_binary_op
+# 
+# Top level modules:
+# 	c_binary_op
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/c_arbiter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module c_arbiter
+# 
+# Top level modules:
+# 	c_arbiter
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router {E:/Documents/DA1/code_noc/src_router/router_wrap.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module router_wrap
+# 
+# Top level modules:
+# 	router_wrap
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/noc_system.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module noc_system
+# 
+# Top level modules:
+# 	noc_system
+# 
+# vlog -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj {E:/Documents/DA1/code_noc/Quartus_proj/tb_noc_system.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_noc_system
+# 
+# Top level modules:
+# 	tb_noc_system
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  tb_noc_system
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_noc_system 
+# Loading sv_std.std
+# Loading work.tb_noc_system
+# Loading work.noc_system
+# Loading work.router_wrap
+# Loading work.vcr_top
+# Loading work.vcr_alloc_mac
+# Loading work.c_reduce_bits
+# Loading work.c_select_mofn
+# Loading work.rtr_crossbar_mac
+# Loading work.c_interleave
+# Loading work.c_crossbar
+# Loading work.tile_core_wrapper
+# Loading work.RV32I
+# Loading work.Load_Store_Unit
+# Loading work.PC
+# Loading work.instruction_Mem
+# Loading work.Control_Unit
+# Loading work.rf_32_32
+# Loading work.Sign_Extend
+# Loading work.alu
+# Loading work.Wishbone_Core_Adapter
+# Loading work.ni_core
+# Loading work.tile_gpio_wrapper
+# Loading work.ni_ip
+# Loading work.wishbone_gpio
+# Loading work.gpio_basic
+# Loading work.tile_timer_wrapper
+# Loading work.wb_timer_top
+# Loading work.wishbone_slave_adapter_timer
+# Loading work.timer
+# Loading work.tile_ram_wrapper
+# Loading work.wb_ram_top
+# Loading work.ram_slave_interface
+# Loading work.ram
+# Loading work.tile_led_matrix_wrapper
+# Loading work.wb_led_matrix_top
+# Loading work.wishbone_slave_adapter_led_matrix
+# Loading work.led_matrix
+# Loading work.tile_uart_wrapper
+# Loading work.wb_uart_top
+# Loading work.wishbone_slave_adapter_uart
+# Loading work.uart
+# Loading work.uart_transmitter
+# Loading work.uart_receiver
+# Loading work.c_binary_op
+# Loading work.vcr_vc_alloc_sep_if
+# Loading work.vcr_sw_alloc_sep_if
+# Loading work.c_select_1ofn
+# Loading work.c_dff
+# Loading work.vcr_ip_ctrl_mac
+# Loading work.rtr_channel_input
+# Loading work.rtr_flit_buffer
+# Loading work.rtr_flow_ctrl_output
+# Loading work.vcr_op_ctrl_mac
+# Loading work.rtr_flow_ctrl_input
+# Loading work.rtr_fc_state
+# Loading work.c_multi_hot_det
+# Loading work.rtr_channel_output
+# Loading work.c_err_rpt
+# Loading work.c_arbiter
+# Loading work.c_align
+# Loading work.c_decode
+# Loading work.c_samq_ctrl
+# Loading work.c_regfile
+# Loading work.c_encode
+# Loading work.vcr_ivc_ctrl
+# Loading work.rtr_route_filter
+# Loading work.rtr_next_hop_addr
+# Loading work.rtr_routing_logic
+# Loading work.rtr_flit_type_check
+# Loading work.c_samq_tracker
+# Loading work.vcr_ovc_ctrl
+# Loading work.c_lod
+# Loading work.c_rr_arbiter
+# Loading work.c_fifo_ctrl
+# Loading work.c_incr
+# Loading work.c_fifo_tracker
+# Loading work.c_rr_arbiter_base
+# Loading work.c_decr
+# ** Warning: (vsim-3015) E:/Documents/DA1/code_noc/Quartus_proj/tb_noc_system.v(39): [PCDPC] - Port size (9 or 9) does not match connection size (1) for port 'error_leds'. The port definition is at: E:/Documents/DA1/code_noc/Quartus_proj/noc_system.v(7).
+# 
+#         Region: /tb_noc_system/uut
+# ** Warning: Design size of 78 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ==================================================
+#    STARTING NOC SYSTEM SIMULATION
+# ==================================================
+# [Time 100000] System Running...
+# [Time 50100000] Dumping data to file...
+# [Time 50100000] Dump finished. File 'ket_qua_dump.txt' created.
+# ==================================================
+#    SIMULATION FINISHED
+# ==================================================
+# Break in Module tb_noc_system at E:/Documents/DA1/code_noc/Quartus_proj/tb_noc_system.v line 136
+# Simulation Breakpoint: Break in Module tb_noc_system at E:/Documents/DA1/code_noc/Quartus_proj/tb_noc_system.v line 136
+# MACRO ./noc_proj_run_msim_rtl_verilog.do PAUSED at line 98

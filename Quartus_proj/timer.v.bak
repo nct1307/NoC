@@ -1,0 +1,48 @@
+module timer (
+    input  wire        clk,
+    input  wire        rst,
+    input  wire        we,          // Write Enable tá»« wrapper
+    input  wire [ 1:0] addr,        // Ä?á»‹a chá»‰ rÃºt gá»?n (0, 1, 2)
+    input  wire [31:0] din,         // Dá»¯ liá»‡u ghi vÃ o
+    output reg  [31:0] dout,        // Dá»¯ liá»‡u Ä‘á»?c ra
+    output      [31:0] current_val  // Ä?á»ƒ debug
+);
+  reg [31:0] ctrl;
+  reg [31:0] period;
+  reg [31:0] value;
+
+  assign current_val = value;
+
+  // Logic Ä?á»?c (Combinational)
+  always @(*) begin
+    case (addr)
+      2'b00:   dout = ctrl;
+      2'b01:   dout = period;
+      2'b10:   dout = value;
+      default: dout = 32'h0;
+    endcase
+  end
+
+  // Logic Ghi & Ä?áº¿m (Sequential)
+  always @(posedge clk) begin
+    if (rst) begin
+      ctrl   <= 32'h0;
+      period <= 32'hFFFF_FFFF;
+      value  <= 32'h0;
+    end else begin
+      // 1. Xá»­ lÃ½ ghi tá»« Bus
+      if (we) begin
+        if (addr == 2'b00) ctrl <= din;
+        if (addr == 2'b01) period <= din;
+      end
+
+      // 2. Logic Ä‘áº¿m cá»§a Timer
+      if (ctrl[1]) begin  // Bit Reset counter
+        value <= 32'h0;
+      end else if (ctrl[0]) begin  // Bit Enable
+        if (value >= period) value <= 32'h0;
+        else value <= value + 1;
+      end
+    end
+  end
+endmodule

@@ -1,0 +1,239 @@
+C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_timer_top.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_timer_top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wb_timer_top
+
+Top level modules:
+	wb_timer_top
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_led_matrix_top.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_led_matrix_top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wb_led_matrix_top
+
+Top level modules:
+	wb_led_matrix_top
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_gpio.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_gpio.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wishbone_gpio
+
+Top level modules:
+	wishbone_gpio
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_ram_wrapper.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_ram_wrapper.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tile_ram_wrapper
+
+Top level modules:
+	tile_ram_wrapper
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_led_matrix_wrapper.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_led_matrix_wrapper.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tile_led_matrix_wrapper
+
+Top level modules:
+	tile_led_matrix_wrapper
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/RV32I.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/RV32I.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RV32I
+
+Top level modules:
+	RV32I
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Wishbone_Core_Adapter.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Wishbone_Core_Adapter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Wishbone_Core_Adapter
+
+Top level modules:
+	Wishbone_Core_Adapter
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Sign_Extend.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Sign_Extend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Sign_Extend
+
+Top level modules:
+	Sign_Extend
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/rf_32_32.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/rf_32_32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rf_32_32
+
+Top level modules:
+	rf_32_32
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ram.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tb_noc_system.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tb_noc_system.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_noc_system
+
+Top level modules:
+	tb_noc_system
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_ram_top.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_ram_top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wb_ram_top
+
+Top level modules:
+	wb_ram_top
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/PC.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/PC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Load_Store_Unit.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Load_Store_Unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Load_Store_Unit
+
+Top level modules:
+	Load_Store_Unit
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/noc_system.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/noc_system.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module noc_system
+
+Top level modules:
+	noc_system
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_gpio_wrapper.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_gpio_wrapper.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tile_gpio_wrapper
+
+Top level modules:
+	tile_gpio_wrapper
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart
+
+Top level modules:
+	uart
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_uart.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_uart.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wishbone_slave_adapter_uart
+
+Top level modules:
+	wishbone_slave_adapter_uart
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_core_wrapper.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_core_wrapper.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tile_core_wrapper
+
+Top level modules:
+	tile_core_wrapper
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_timer_wrapper.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_timer_wrapper.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tile_timer_wrapper
+
+Top level modules:
+	tile_timer_wrapper
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_uart_top.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_uart_top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wb_uart_top
+
+Top level modules:
+	wb_uart_top
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ni_ip.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ni_ip.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ni_ip
+
+Top level modules:
+	ni_ip
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ni_core.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ni_core.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ni_core
+
+Top level modules:
+	ni_core
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/gpio_basic.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/gpio_basic.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module gpio_basic
+
+Top level modules:
+	gpio_basic
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Control_Unit.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Control_Unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Control_Unit
+
+Top level modules:
+	Control_Unit
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart_receiver.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart_receiver.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_receiver
+
+Top level modules:
+	uart_receiver
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart_transmitter.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart_transmitter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_transmitter
+
+Top level modules:
+	uart_transmitter
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/led_matrix.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/led_matrix.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module led_matrix
+
+Top level modules:
+	led_matrix
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_uart_wrapper.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_uart_wrapper.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tile_uart_wrapper
+
+Top level modules:
+	tile_uart_wrapper
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/timer.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/timer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module timer
+
+Top level modules:
+	timer
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_led_matrix.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_led_matrix.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wishbone_slave_adapter_led_matrix
+
+Top level modules:
+	wishbone_slave_adapter_led_matrix
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_timer.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_timer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wishbone_slave_adapter_timer
+
+Top level modules:
+	wishbone_slave_adapter_timer
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ram_slave_interface.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ram_slave_interface.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram_slave_interface
+
+Top level modules:
+	ram_slave_interface
+
+} {} {}} C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/alu.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}}

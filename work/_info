@@ -1,0 +1,2756 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/17.1
+valu
+!s110 1781277002
+!i10b 1
+!s100 8aFb[QO@lSjg]2WCg]N?^0
+Idzb3jiOeU9@dUb1:kj6Gf3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp
+w1767263502
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/alu.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/alu.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1781277002.000000
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/alu.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vc_add_nto1
+Z6 !s110 1781275825
+!i10b 1
+!s100 CYaA11_c_San@0>HH`73S0
+IhN]2oc>j50SYX>cKJ9UfB1
+R0
+R1
+Z7 w1346286691
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_add_nto1.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_add_nto1.v
+Z8 FC:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v
+Z9 L0 32
+R2
+r1
+!s85 0
+31
+Z10 !s108 1781275825.000000
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_add_nto1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_add_nto1.v|
+!i113 1
+R4
+R5
+vc_align
+R6
+!i10b 1
+!s100 GJcz_Q0Yj:9610XUZ_g:G0
+IV7FRg4_3[l3<OC6f<LU800
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_align.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_align.v
+R9
+R2
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_align.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_align.v|
+!i113 1
+R4
+R5
+vc_arbiter
+R6
+!i10b 1
+!s100 1`>=:z=QTo_=3<=nWhbY@2
+I]8K=[gfcjX93We4A`4GKE0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_arbiter.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_arbiter.v
+R8
+Z11 FC:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v
+R9
+R2
+r1
+!s85 0
+31
+R10
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_arbiter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_arbiter.v|
+!i113 1
+R4
+R5
+vc_binary_op
+R6
+!i10b 1
+!s100 mfLC@bf9S`bPAeERF>;IW0
+IbECmOX[;fUHCF_hYCA^I[3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_binary_op.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_binary_op.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R10
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_binary_op.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_binary_op.v|
+!i113 1
+R4
+R5
+vc_clkgate
+R6
+!i10b 1
+!s100 aKJaJM8:=EJVkI^JYiF]@1
+IcYR5KN7WjYlUL9>CPW9g63
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_clkgate.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_clkgate.v
+R9
+R2
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_clkgate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_clkgate.v|
+!i113 1
+R4
+R5
+vc_crossbar
+R6
+!i10b 1
+!s100 A]6=nn[n?10N>OI70ZA2C3
+I>aPTn6AL]@m`LJN4J8GT]1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_crossbar.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_crossbar.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R10
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_crossbar.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_crossbar.v|
+!i113 1
+R4
+R5
+vc_damq_ctrl
+Z12 !s110 1781275826
+!i10b 1
+!s100 nB]oZkB4KJBnc][Od6;oA3
+IJ1@fQe;U`;=0ZhIWVW^aR3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_damq_ctrl.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_damq_ctrl.v
+R8
+R11
+R9
+R2
+r1
+!s85 0
+31
+R10
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_damq_ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_damq_ctrl.v|
+!i113 1
+R4
+R5
+vc_damq_tracker
+R12
+!i10b 1
+!s100 R78P_[maCP@;mn^UWKB2_2
+IDzHo5;]nfKgS7[XZln=>J3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_damq_tracker.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_damq_tracker.v
+R8
+R11
+R9
+R2
+r1
+!s85 0
+31
+Z13 !s108 1781275826.000000
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_damq_tracker.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_damq_tracker.v|
+!i113 1
+R4
+R5
+vc_decode
+R12
+!i10b 1
+!s100 G`OKT3^LEdFjA8C@EeYi[1
+I24>`ceZ=V5]iQ=8O9G=z23
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_decode.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_decode.v
+R8
+Z14 L0 34
+R2
+r1
+!s85 0
+31
+R13
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_decode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_decode.v|
+!i113 1
+R4
+R5
+vc_decr
+R12
+!i10b 1
+!s100 7_TN=E_T?z8MRG3n6o=Rb2
+ITgKJj^T>mX6fiee=5Mczj0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_decr.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_decr.v
+R8
+R9
+R2
+r1
+!s85 0
+31
+R13
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_decr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_decr.v|
+!i113 1
+R4
+R5
+vc_dff
+R12
+!i10b 1
+!s100 ?>Zo;^?D0W0Gb@jjSjY100
+I?jJVEAXX6o?U`3a=aF3j^3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_dff.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_dff.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R13
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_dff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_dff.v|
+!i113 1
+R4
+R5
+vc_diag_op
+R12
+!i10b 1
+!s100 L=>e?GW5n`9foDkX7=7I<2
+IFfDMQ6cdRVE=E:cJ80Li_3
+R0
+R1
+w1781275244
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_diag_op.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_diag_op.v
+R9
+R2
+r1
+!s85 0
+31
+R13
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_diag_op.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_diag_op.v|
+!i113 1
+R4
+R5
+vc_encode
+R12
+!i10b 1
+!s100 LP57H]MMX1J[cz6lETbC[2
+Ia9XkdUHM]^5;8@B?h=<ea3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_encode.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_encode.v
+R8
+R14
+R2
+r1
+!s85 0
+31
+R13
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_encode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_encode.v|
+!i113 1
+R4
+R5
+vc_err_rpt
+R12
+!i10b 1
+!s100 ;4Of;lB00N]Wcz?^jh2]f1
+I8OZ`SM8YZKR?T0:CCd1091
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_err_rpt.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_err_rpt.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R13
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_err_rpt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_err_rpt.v|
+!i113 1
+R4
+R5
+vc_fbgen
+R12
+!i10b 1
+!s100 DGncm[k@XKl>6;gHB`@b00
+IZn;]N?DjB;Yh?:D[9[K0L0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fbgen.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fbgen.v
+R11
+R14
+R2
+r1
+!s85 0
+31
+R13
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fbgen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fbgen.v|
+!i113 1
+R4
+R5
+vc_fbmult
+R12
+!i10b 1
+!s100 XKeCVV^^VNLA1@?T1gGgn1
+I8[?m_ANTLQf>j9OFiDDgM1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fbmult.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fbmult.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R13
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fbmult.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fbmult.v|
+!i113 1
+R4
+R5
+vc_fifo
+Z15 !s110 1781275827
+!i10b 1
+!s100 IW[_9O@EY=gf[`XQe5F>D1
+IHXPHUU[NlONPd`V0M7jkg1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fifo.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fifo.v
+R8
+R11
+R9
+R2
+r1
+!s85 0
+31
+R13
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fifo.v|
+!i113 1
+R4
+R5
+vc_fifo_ctrl
+R15
+!i10b 1
+!s100 3QnTXVT<[=N<635_>]`MI0
+IX>a:nGecF]QInbZ>a`mL11
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fifo_ctrl.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fifo_ctrl.v
+R8
+R11
+R9
+R2
+r1
+!s85 0
+31
+Z16 !s108 1781275827.000000
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fifo_ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fifo_ctrl.v|
+!i113 1
+R4
+R5
+vc_fifo_tracker
+R15
+!i10b 1
+!s100 gA1Z8[zS5zWghOH8QOhD13
+I9bM2Hi9zQ?jbA:j1>35S91
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fifo_tracker.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fifo_tracker.v
+R8
+R11
+R9
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fifo_tracker.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_fifo_tracker.v|
+!i113 1
+R4
+R5
+vc_gate_bits
+R15
+!i10b 1
+!s100 ]fbbL4^[?izh8?M7c0BdT0
+I>3[?`0hbnGFUUb`KQoo<J3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_gate_bits.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_gate_bits.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_gate_bits.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_gate_bits.v|
+!i113 1
+R4
+R5
+vc_gather
+R15
+!i10b 1
+!s100 dBE6jN1hHWO9AkMC21c:f0
+IhBK5Y73DigHaAk<N@Dn2A3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_gather.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_gather.v
+Z17 L0 33
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_gather.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_gather.v|
+!i113 1
+R4
+R5
+vc_incr
+R15
+!i10b 1
+!s100 :>OYcVRinb=?B_F>i>QzR2
+IDnz^HC^06HB;R7MCXhlSi3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_incr.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_incr.v
+R8
+R9
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_incr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_incr.v|
+!i113 1
+R4
+R5
+vc_interleave
+R15
+!i10b 1
+!s100 jJBHk4azX88?]khaaO<JT0
+IHA`VSOVcVPMBTP4@FJZh^3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_interleave.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_interleave.v
+R17
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_interleave.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_interleave.v|
+!i113 1
+R4
+R5
+vc_lfsr
+R15
+!i10b 1
+!s100 hDzL7kYnGbh^a]MCBkQAR1
+I`HfCIL?bUHh570CPIWEOl3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_lfsr.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_lfsr.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_lfsr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_lfsr.v|
+!i113 1
+R4
+R5
+vc_lod
+R15
+!i10b 1
+!s100 [YGVKeoJOOn<WLd`hnE853
+I5SM^gV6CA2]?1`[I15z7i1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_lod.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_lod.v
+R8
+R9
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_lod.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_lod.v|
+!i113 1
+R4
+R5
+vc_mat_mult
+R15
+!i10b 1
+!s100 ;0QK5@1[Ec`RaJCno?Phk0
+IklEO8<0abJiF8nD6I`nd=2
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_mat_mult.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_mat_mult.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_mat_mult.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_mat_mult.v|
+!i113 1
+R4
+R5
+vc_matrix_arbiter
+R15
+!i10b 1
+!s100 ahZVFDjin>j8EFTAfKlG@2
+IobF_<P1QF7ne8GNGW^hDT1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_matrix_arbiter.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_matrix_arbiter.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_matrix_arbiter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_matrix_arbiter.v|
+!i113 1
+R4
+R5
+vc_multi_hot_det
+R15
+!i10b 1
+!s100 APe5>j>FNz[XmVmVM52JH0
+IYacKcBzAE:Hdld]W5G6=b2
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_multi_hot_det.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_multi_hot_det.v
+R11
+R8
+R9
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_multi_hot_det.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_multi_hot_det.v|
+!i113 1
+R4
+R5
+vc_one_hot_filter
+R15
+!i10b 1
+!s100 :?78==lV>>eag37Ce3a>a2
+I6e^UVm;H]m:Z<VCjH_8]R1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_one_hot_filter.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_one_hot_filter.v
+R8
+R9
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_one_hot_filter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_one_hot_filter.v|
+!i113 1
+R4
+R5
+vc_one_hot_therm_conv
+R15
+!i10b 1
+!s100 8HUJk8_hoSoI3R<eB;SU@2
+IdJA6G6_i^a[J`ILJeTj`Y3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_one_hot_therm_conv.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_one_hot_therm_conv.v
+R8
+R9
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_one_hot_therm_conv.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_one_hot_therm_conv.v|
+!i113 1
+R4
+R5
+vc_prefix_arbiter
+R15
+!i10b 1
+!s100 I85oORAD>_Ugeh;QTYV:^2
+IE:3@`]JS0MPf:TbYi7_>g1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_arbiter.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_arbiter.v
+R11
+R8
+R9
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_arbiter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_arbiter.v|
+!i113 1
+R4
+R5
+vc_prefix_arbiter_base
+R15
+!i10b 1
+!s100 IlBEPEU6GhHm4kjAL]M092
+IagEW<ZRQQ0H?j3f?idC0W3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_arbiter_base.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_arbiter_base.v
+R9
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_arbiter_base.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_arbiter_base.v|
+!i113 1
+R4
+R5
+vc_prefix_net
+R15
+!i10b 1
+!s100 7:Y2a^a0m]nX22Q6hX1SF0
+IzX>m;jPP4Bz2SM6Wf31kD3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_net.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_net.v
+R8
+R9
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_net.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_net.v|
+!i113 1
+R4
+R5
+vc_prio_enc
+R15
+!i10b 1
+!s100 896>]98C8HXB0kZGbK^Wf1
+IO^jLle>fZdEjVeLoFG1kl3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prio_enc.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prio_enc.v
+R8
+R14
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prio_enc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prio_enc.v|
+!i113 1
+R4
+R5
+vc_prio_sel
+Z18 !s110 1781275828
+!i10b 1
+!s100 254C1;<EHfiJM5z_GId7=1
+I12^]6^oC=zMjI6;j83IJI3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prio_sel.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prio_sel.v
+R8
+R9
+R2
+r1
+!s85 0
+31
+Z19 !s108 1781275828.000000
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prio_sel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_prio_sel.v|
+!i113 1
+R4
+R5
+vc_reduce_bits
+R18
+!i10b 1
+!s100 5RWdTL:HH0PhMXW9`QE3D2
+IX3QCUnX=bGnCVd;5U_z1>1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_reduce_bits.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_reduce_bits.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_reduce_bits.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_reduce_bits.v|
+!i113 1
+R4
+R5
+vc_regfile
+R18
+!i10b 1
+!s100 n6^CB40UiooT0[fifSgJ43
+I4lNZ2F28i1VeE_ck0;N[03
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_regfile.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_regfile.v
+R8
+R11
+R9
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_regfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_regfile.v|
+!i113 1
+R4
+R5
+vc_reverse
+R18
+!i10b 1
+!s100 O0DebIRF0L`RUP0fK?7e=0
+IBJlkN0EhOS6P?mFCQ@6cQ1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_reverse.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_reverse.v
+R9
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_reverse.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_reverse.v|
+!i113 1
+R4
+R5
+vc_rotate
+R18
+!i10b 1
+!s100 @9R1BWYJoAo5BRfBg;S:`0
+I49anaF2b2;97k1nQ<S[ID0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_rotate.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_rotate.v
+R8
+R11
+R9
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_rotate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_rotate.v|
+!i113 1
+R4
+R5
+vc_rr_arbiter
+R18
+!i10b 1
+!s100 [;e4`TM7CzEonflBW7ObQ2
+IkJNmIl=jQ2T2QP7=B^em91
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_rr_arbiter.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_rr_arbiter.v
+R11
+R8
+R9
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_rr_arbiter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_rr_arbiter.v|
+!i113 1
+R4
+R5
+vc_rr_arbiter_base
+R18
+!i10b 1
+!s100 ihjmDbMEQ9lEbn_EmGBD`0
+I6P9cUJAR0285CIL1;c8SC3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_rr_arbiter_base.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_rr_arbiter_base.v
+R9
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_rr_arbiter_base.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_rr_arbiter_base.v|
+!i113 1
+R4
+R5
+vc_samq_ctrl
+R18
+!i10b 1
+!s100 i@Ld59zjDREkC@C>`fijU1
+I2U0c9zUXOUBib9WgeG>kd2
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_samq_ctrl.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_samq_ctrl.v
+R8
+R11
+R9
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_samq_ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_samq_ctrl.v|
+!i113 1
+R4
+R5
+vc_samq_tracker
+R18
+!i10b 1
+!s100 W7ckRnZ04[cdAYL7`P2lc1
+IYn4PSW_=OTAnz1z@Ho`gV2
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_samq_tracker.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_samq_tracker.v
+R8
+R11
+R9
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_samq_tracker.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_samq_tracker.v|
+!i113 1
+R4
+R5
+vc_scatter
+R18
+!i10b 1
+!s100 kK??hz>OHgU@=9<h<5j7K1
+I5UE>2XfJLjV?DoNCPb8]S0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_scatter.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_scatter.v
+R9
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_scatter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_scatter.v|
+!i113 1
+R4
+R5
+vc_select_1ofn
+R18
+!i10b 1
+!s100 bFd>2b^1dFUGoo]V`aTOc2
+I:8kBUIDi3L^QXGgGz^m3D0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_select_1ofn.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_select_1ofn.v
+R11
+R14
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_select_1ofn.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_select_1ofn.v|
+!i113 1
+R4
+R5
+vc_select_mofn
+R18
+!i10b 1
+!s100 DdXUj40ddC_OXMM@?W7@X3
+I_5aO@]IL>X=X4@3mkWlM30
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_select_mofn.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_select_mofn.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_select_mofn.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_select_mofn.v|
+!i113 1
+R4
+R5
+vc_shift_reg
+R18
+!i10b 1
+!s100 L9PEP5m`f5TEGTzT1>`S01
+IRQ_`G<AP<<kHj9?>e8Wc40
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_shift_reg.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_shift_reg.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_shift_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_shift_reg.v|
+!i113 1
+R4
+R5
+vc_wf_alloc
+R18
+!i10b 1
+!s100 56Vo=F4`C_4hlkC]8E_g73
+I19GGXNzfbNe7ADD>_95J<0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc.v|
+!i113 1
+R4
+R5
+vc_wf_alloc_dpa
+R18
+!i10b 1
+!s100 3i=Db]gQSHL]?dmL<C]ke3
+I>ak<`<B7j?_^cA;NI0WX^3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_dpa.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_dpa.v
+R11
+R14
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_dpa.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_dpa.v|
+!i113 1
+R4
+R5
+vc_wf_alloc_loop
+R18
+!i10b 1
+!s100 =0[XJ>CJ@@=Jo]fnC49gU0
+I2[HU>GPKe?`ho5P?R<2F00
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_loop.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_loop.v
+R11
+R14
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_loop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_loop.v|
+!i113 1
+R4
+R5
+vc_wf_alloc_mux
+R18
+!i10b 1
+!s100 C@7kDY^N;NX2lEJRK7OPh3
+I[cRz=0SjMCW1?GkOSglX83
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_mux.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_mux.v
+R8
+R11
+R17
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_mux.v|
+!i113 1
+R4
+R5
+vc_wf_alloc_rep
+Z20 !s110 1781275829
+!i10b 1
+!s100 j9<i5S95fT2]55Fza5jnW1
+IA7VWUeQAJP47eF6n9=_lH3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_rep.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_rep.v
+R8
+R11
+R17
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_rep.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_rep.v|
+!i113 1
+R4
+R5
+vc_wf_alloc_rot
+R20
+!i10b 1
+!s100 RLL8kS]5L@6K;nJO8ZR^02
+I?zL;o<m2eN5I3H4FO`ES=0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_rot.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_rot.v
+R8
+R11
+R17
+R2
+r1
+!s85 0
+31
+Z21 !s108 1781275829.000000
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_rot.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_rot.v|
+!i113 1
+R4
+R5
+vc_wf_alloc_sdpa
+R20
+!i10b 1
+!s100 ?4eQ_UYo8og]2h=lPGV8T2
+I5?IL6M8ha==;CeMzH0IoQ2
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_sdpa.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_sdpa.v
+R11
+R14
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_sdpa.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_sdpa.v|
+!i113 1
+R4
+R5
+vControl_Unit
+Z22 !s110 1781277003
+!i10b 1
+!s100 mUB6B=W7@C<cZeG7GngZ@3
+IbTcnVmV8z];UKQ<UefCG;2
+R0
+R1
+w1767263099
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Control_Unit.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Control_Unit.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Control_Unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Control_Unit.v|
+!i113 1
+R4
+R5
+n@control_@unit
+vgpio_basic
+R22
+!i10b 1
+!s100 ]8Imf5omelUY1jmc[:TZK2
+IkKY5;O>G0:HefdANm2V2Q3
+R0
+R1
+w1767622510
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/gpio_basic.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/gpio_basic.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z23 !s108 1781277003.000000
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/gpio_basic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/gpio_basic.v|
+!i113 1
+R4
+R5
+vinstruction_Mem
+R22
+!i10b 1
+!s100 Id>OPenGW;OWZQ65h0Vz21
+IhKHVoi8goJBlIa7]:eLG72
+R0
+R1
+w1781274787
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/instruction_Mem.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/instruction_Mem.v
+L0 1
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/instruction_Mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/instruction_Mem.v|
+!i113 1
+R4
+R5
+ninstruction_@mem
+vled_matrix
+R22
+!i10b 1
+!s100 RoW?N?fBYZD`LzLX2Q6Hk1
+IT6A<:5_Ue2ZHS1g2UnkEj2
+R0
+R1
+w1767586567
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/led_matrix.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/led_matrix.v
+L0 1
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/led_matrix.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/led_matrix.v|
+!i113 1
+R4
+R5
+vLoad_Store_Unit
+R22
+!i10b 1
+!s100 6l0^eNbe@7Ym]in5WKXU_3
+Im55N7S3o6d3C7E^TJSJI60
+R0
+R1
+w1767263125
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Load_Store_Unit.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Load_Store_Unit.v
+L0 2
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Load_Store_Unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Load_Store_Unit.v|
+!i113 1
+R4
+R5
+n@load_@store_@unit
+vni_core
+R22
+!i10b 1
+!s100 QRhIDGQY8OSPY6j3f7h=[2
+InZDl92[nmWk;NMhf03]9[2
+R0
+R1
+w1767941111
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ni_core.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ni_core.v
+L0 1
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ni_core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ni_core.v|
+!i113 1
+R4
+R5
+vni_ip
+R22
+!i10b 1
+!s100 kD>GkREbK5G^9[=178m1d2
+I>S576S4=4_Kd527Y_GKZ`0
+R0
+R1
+w1767941118
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ni_ip.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ni_ip.v
+L0 1
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ni_ip.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ni_ip.v|
+!i113 1
+R4
+R5
+vnoc_system
+R22
+!i10b 1
+!s100 37QJPbe=SE=eg9>8;a<gg1
+I015o`Bo<3Ul;?h@8a:mLf3
+R0
+R1
+w1781276999
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/noc_system.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/noc_system.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_functions.v
+Z24 FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_constants.v
+Z25 FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_constants.v
+Z26 FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_constants.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/parameters.v
+L0 4
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/parameters.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/noc_system.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/noc_system.v|
+!i113 1
+R4
+R5
+vPC
+R22
+!i10b 1
+!s100 le`VJGNVQQg<`3F_[^SUE3
+I2[liLQaa5nLIkf4GVjUJJ2
+R0
+R1
+w1767618405
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/PC.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/PC.v
+L0 1
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/PC.v|
+!i113 1
+R4
+R5
+n@p@c
+vram
+R22
+!i10b 1
+!s100 7=Si79ObGAXiMRH2<]F@S2
+ID8j9Id`daSzA<b3Ra;P_:0
+R0
+R1
+w1767618641
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ram.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ram.v
+L0 3
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ram.v|
+!i113 1
+R4
+R5
+vram_slave_interface
+R22
+!i10b 1
+!s100 kea`QVkCGnd<j7JM2NUAE1
+IS8LeMWoi39KmQeb01;3^T1
+R0
+R1
+w1767520501
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ram_slave_interface.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ram_slave_interface.v
+L0 43
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ram_slave_interface.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/ram_slave_interface.v|
+!i113 1
+R4
+R5
+vrf_32_32
+R22
+!i10b 1
+!s100 ]87=BVbfj4C]>Yol]?2Nj1
+Ih@7kUH@6X?>B:MzgL?VZA1
+R0
+R1
+w1767618574
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/rf_32_32.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/rf_32_32.v
+L0 1
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/rf_32_32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/rf_32_32.v|
+!i113 1
+R4
+R5
+vrouter_wrap
+R20
+!i10b 1
+!s100 3HJO]Xoi]@i=jO_@7FAg?0
+I=;dThUQbngbC>h=Eg9YUB0
+R0
+R1
+w1781275555
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/router_wrap.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/router_wrap.v
+R8
+R11
+Z27 FC:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v
+Z28 FC:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v
+FC:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\parameters.v
+R24
+R25
+R26
+R17
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\parameters.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/router_wrap.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/router_wrap.v|
+!i113 1
+R4
+R5
+vrtr_alloc_mac
+R20
+!i10b 1
+!s100 S=ch>>=QBoPDT7O`eC3DJ1
+IZ=AEo[]F^1EZzd4Z4DF>o2
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_alloc_mac.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_alloc_mac.v
+R8
+R11
+R27
+R9
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_alloc_mac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_alloc_mac.v|
+!i113 1
+R4
+R5
+vrtr_channel_input
+R20
+!i10b 1
+!s100 T[aC0]AmlRA3>mOCEBRTi2
+Im:kN]lOh0:5Y1g99BQlYl1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_channel_input.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_channel_input.v
+R8
+R11
+R27
+R9
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_channel_input.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_channel_input.v|
+!i113 1
+R4
+R5
+vrtr_channel_output
+R20
+!i10b 1
+!s100 VL_e]ReTge>eBFJIVAd><2
+IhU0S2EVSCIM`DYhHSh^a13
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_channel_output.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_channel_output.v
+R8
+R11
+R27
+R9
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_channel_output.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_channel_output.v|
+!i113 1
+R4
+R5
+vrtr_crossbar_mac
+R20
+!i10b 1
+!s100 mn1A<AS;5NzKdg9jLn=Ub0
+INefbDhVeHhH[Z=2N>bORO2
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_crossbar_mac.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_crossbar_mac.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_crossbar_mac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_crossbar_mac.v|
+!i113 1
+R4
+R5
+vrtr_fc_state
+R20
+!i10b 1
+!s100 8SA?k[^L1`nlc68G7nHlk0
+IL8JEmf>5^<AoLe@5Fl^ng0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_fc_state.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_fc_state.v
+R8
+R11
+R27
+R9
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_fc_state.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_fc_state.v|
+!i113 1
+R4
+R5
+vrtr_flags_mux
+R20
+!i10b 1
+!s100 FbdIaNIRz0DLX?B[4Y2_`3
+I[];CgbJ34i=MRmz1j6YJQ0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flags_mux.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flags_mux.v
+R8
+R11
+R9
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flags_mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flags_mux.v|
+!i113 1
+R4
+R5
+vrtr_flit_buffer
+R20
+!i10b 1
+!s100 @@?LH=GjG?gMHjH5P85GO0
+ImoK@iBi]85l]<F2a[9_=[0
+R0
+R1
+w1767279185
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flit_buffer.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flit_buffer.v
+R8
+R11
+R27
+R28
+R9
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flit_buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flit_buffer.v|
+!i113 1
+R4
+R5
+vrtr_flit_type_check
+R20
+!i10b 1
+!s100 Lg4EEg_CL]GY2ZWlOSB>Z0
+I`PD2]j9=A>NXjdK6L0dKO2
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flit_type_check.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flit_type_check.v
+R11
+R9
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flit_type_check.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flit_type_check.v|
+!i113 1
+R4
+R5
+vrtr_flow_ctrl_input
+R20
+!i10b 1
+!s100 P:>>]FH[i@Gln=4V:c]oI2
+I2@`g@I]lEiYRFNlDEG;Sm2
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flow_ctrl_input.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flow_ctrl_input.v
+R8
+R11
+R27
+R9
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flow_ctrl_input.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flow_ctrl_input.v|
+!i113 1
+R4
+R5
+vrtr_flow_ctrl_output
+R20
+!i10b 1
+!s100 cJG63H469gSZ92I;4S]D42
+I?JR7=k<g=l7b2?KP3JzUz1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flow_ctrl_output.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flow_ctrl_output.v
+R8
+R11
+R27
+R9
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flow_ctrl_output.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_flow_ctrl_output.v|
+!i113 1
+R4
+R5
+vrtr_ip_ctrl_mac
+R20
+!i10b 1
+!s100 mcT[Km4ZB>VIPOzXF?zGH1
+Il;=5RD_=BHVEh4<JeoBE@3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_ip_ctrl_mac.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_ip_ctrl_mac.v
+R8
+R11
+R27
+R9
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_ip_ctrl_mac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_ip_ctrl_mac.v|
+!i113 1
+R4
+R5
+vrtr_next_hop_addr
+R20
+!i10b 1
+!s100 [JoS2KVkkWfI;XeQ@ZIHK1
+I90mLicYWXP52fQnoNP7[f2
+R0
+R1
+w1767279156
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_next_hop_addr.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_next_hop_addr.v
+R8
+R11
+R27
+R28
+R9
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_next_hop_addr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_next_hop_addr.v|
+!i113 1
+R4
+R5
+vrtr_op_ctrl_mac
+Z29 !s110 1781275830
+!i10b 1
+!s100 9a482`@QTCFi9f6HcmGE^1
+IU]RCgf:18S9H;ioHF:fo31
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_op_ctrl_mac.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_op_ctrl_mac.v
+R8
+R11
+R27
+R9
+R2
+r1
+!s85 0
+31
+R21
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_op_ctrl_mac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_op_ctrl_mac.v|
+!i113 1
+R4
+R5
+vrtr_route_filter
+R29
+!i10b 1
+!s100 nBX8HQKM_GRznjI5gH66@2
+IGe]P9n=RUoa06lS2N?PEB1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_route_filter.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_route_filter.v
+R11
+R27
+R17
+R2
+r1
+!s85 0
+31
+Z30 !s108 1781275830.000000
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_route_filter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_route_filter.v|
+!i113 1
+R4
+R5
+vrtr_routing_logic
+R29
+!i10b 1
+!s100 ;EZUJYF:WkPJFD4e1l]]d2
+I1Ec<XYnzm_VJk45mX2=VD2
+R0
+R1
+w1767279112
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_routing_logic.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_routing_logic.v
+R8
+R11
+R27
+R28
+R9
+R2
+r1
+!s85 0
+31
+R30
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_routing_logic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_routing_logic.v|
+!i113 1
+R4
+R5
+vrtr_top
+R29
+!i10b 1
+!s100 AoX5WeZKn=zCXS<=M=W<>1
+IG?N9^CNkZH9QO^GRSa5UX2
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_top.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_top.v
+R8
+R11
+R27
+R9
+R2
+r1
+!s85 0
+31
+R30
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/rtr_top.v|
+!i113 1
+R4
+R5
+vRV32I
+R22
+!i10b 1
+!s100 XP3;`eXJdA::haK99c1kN1
+Iz=aB7jjd303m2K`D8Fki_1
+R0
+R1
+w1767620183
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/RV32I.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/RV32I.v
+L0 6
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/RV32I.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/RV32I.v|
+!i113 1
+R4
+R5
+n@r@v32@i
+vSign_Extend
+R22
+!i10b 1
+!s100 ?8N9UeBcKF@>dmMSjSdbA0
+IjJL@oYlo@NE1lO?lCTZ1H2
+R0
+R1
+w1767263554
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Sign_Extend.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Sign_Extend.v
+L0 1
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Sign_Extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Sign_Extend.v|
+!i113 1
+R4
+R5
+n@sign_@extend
+vtb_noc_system
+R22
+!i10b 1
+!s100 CHfaA4:ZhM?QCoV<T;2g_1
+I0FkLbCQYoA2_K]C94ada>1
+R0
+R1
+w1778547900
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tb_noc_system.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tb_noc_system.v
+L0 3
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tb_noc_system.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tb_noc_system.v|
+!i113 1
+R4
+R5
+vtile_core_wrapper
+R22
+!i10b 1
+!s100 02QoVFhP<><P=JW^OZKXo2
+IJlLKJ]aZolOWkA15Mi`iZ3
+R0
+R1
+w1767620717
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_core_wrapper.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_core_wrapper.v
+L0 3
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_core_wrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_core_wrapper.v|
+!i113 1
+R4
+R5
+vtile_gpio_wrapper
+R22
+!i10b 1
+!s100 US`RU]j4hhUg@od:Gm:N[0
+IYnP0iZWMEYW_Y1>KKllWN0
+R0
+R1
+w1767627424
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_gpio_wrapper.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_gpio_wrapper.v
+L0 1
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_gpio_wrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_gpio_wrapper.v|
+!i113 1
+R4
+R5
+vtile_led_matrix_wrapper
+R22
+!i10b 1
+!s100 SU9A5`4I;4SdmfC<fR?TZ3
+IH_`36j3ZkP_LNfk<X7V;63
+R0
+R1
+w1767619584
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_led_matrix_wrapper.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_led_matrix_wrapper.v
+L0 1
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_led_matrix_wrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_led_matrix_wrapper.v|
+!i113 1
+R4
+R5
+vtile_ram_wrapper
+R22
+!i10b 1
+!s100 @`7Zzz9m0^AAF`Xc<z=Vk1
+IYE[ASm;EkgeBhA<HCS66O3
+R0
+R1
+w1767619763
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_ram_wrapper.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_ram_wrapper.v
+L0 1
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_ram_wrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_ram_wrapper.v|
+!i113 1
+R4
+R5
+vtile_timer_wrapper
+R22
+!i10b 1
+!s100 ]PPeY81oG]78n?TH<[?Cd1
+I<bQYn3gOdJ9bcVDiIE^@N2
+R0
+R1
+w1767619510
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_timer_wrapper.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_timer_wrapper.v
+L0 1
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_timer_wrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_timer_wrapper.v|
+!i113 1
+R4
+R5
+vtile_uart_wrapper
+Z31 !s110 1781277004
+!i10b 1
+!s100 cbLQ`iGAFid6`Rb04j@;m2
+IV715XJaDg74OeVS2=bm``2
+R0
+R1
+w1767624869
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_uart_wrapper.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_uart_wrapper.v
+L0 1
+R2
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_uart_wrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/tile_uart_wrapper.v|
+!i113 1
+R4
+R5
+vtimer
+R31
+!i10b 1
+!s100 kal3FY]6JJBGK5z@daj;F1
+IjkZR`1EdB<RN9Rj35_OU`3
+R0
+R1
+w1778562341
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/timer.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/timer.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z32 !s108 1781277004.000000
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/timer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/timer.v|
+!i113 1
+R4
+R5
+vuart
+R31
+!i10b 1
+!s100 bY<N6?M]jzfD<S9G5n5>01
+Iac^DEU8Ve0;KU30LCcm@c2
+R0
+R1
+w1767624493
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart.v
+L0 9
+R2
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart.v|
+!i113 1
+R4
+R5
+vuart_receiver
+R31
+!i10b 1
+!s100 ;mmPobz5FLzboL6b[j`h@3
+IXj<cZnYD;B8ZIoLFRGKKQ2
+R0
+R1
+w1767624384
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart_receiver.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart_receiver.v
+L0 9
+R2
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart_receiver.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart_receiver.v|
+!i113 1
+R4
+R5
+vuart_transmitter
+R31
+!i10b 1
+!s100 W^E;[D5jPA6zAj2Yh2?f?2
+INA:jDGiEI>dn;=1R]RRg52
+R0
+R1
+w1767624456
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart_transmitter.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart_transmitter.v
+L0 9
+R2
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart_transmitter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/uart_transmitter.v|
+!i113 1
+R4
+R5
+vvcr_alloc_mac
+R29
+!i10b 1
+!s100 fk4Yf1g_FNAhLJ7@F_bk81
+IE_QEMPZ>jkO_8nZXGhOeN3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_alloc_mac.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_alloc_mac.v
+R8
+R11
+R28
+R9
+R2
+r1
+!s85 0
+31
+R30
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_alloc_mac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_alloc_mac.v|
+!i113 1
+R4
+R5
+vvcr_ip_ctrl_mac
+R29
+!i10b 1
+!s100 Hojo5KcAzjDV2EZLm:YOO2
+IX;nOFiST<WlV=3oce27J>2
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_ip_ctrl_mac.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_ip_ctrl_mac.v
+R8
+R11
+R27
+R28
+R9
+R2
+r1
+!s85 0
+31
+R30
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_ip_ctrl_mac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_ip_ctrl_mac.v|
+!i113 1
+R4
+R5
+vvcr_ivc_ctrl
+R29
+!i10b 1
+!s100 HPRj1;^j4JFeD^0SoS<h50
+I:ESQm=znWKJ;eZ[GRcQaS1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_ivc_ctrl.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_ivc_ctrl.v
+R8
+R11
+R27
+R28
+R9
+R2
+r1
+!s85 0
+31
+R30
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_ivc_ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_ivc_ctrl.v|
+!i113 1
+R4
+R5
+vvcr_op_ctrl_mac
+R29
+!i10b 1
+!s100 ;L[PhTa80gZ]EChBJ=c[23
+I36^ga>CzNRNdLcgXgamFI0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_op_ctrl_mac.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_op_ctrl_mac.v
+R8
+R11
+R27
+R28
+R9
+R2
+r1
+!s85 0
+31
+R30
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_op_ctrl_mac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_op_ctrl_mac.v|
+!i113 1
+R4
+R5
+vvcr_ovc_ctrl
+R29
+!i10b 1
+!s100 Vjg=dimKL3:KECQYczfB31
+Ig^MJ08BBI1F1;zEMeL[6L1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_ovc_ctrl.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_ovc_ctrl.v
+R8
+R11
+R27
+R28
+R9
+R2
+r1
+!s85 0
+31
+R30
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_ovc_ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_ovc_ctrl.v|
+!i113 1
+R4
+R5
+vvcr_sw_alloc_sep_if
+R29
+!i10b 1
+!s100 KVA=dQE]9=<Tm=[HJXe@61
+I1G95`QGWWD>B5P9C:NMX<0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_sep_if.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_sep_if.v
+R8
+R11
+R28
+R9
+R2
+r1
+!s85 0
+31
+R30
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_sep_if.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_sep_if.v|
+!i113 1
+R4
+R5
+vvcr_sw_alloc_sep_of
+R29
+!i10b 1
+!s100 mUl:KQ:XWTI]B_YW9S?gh1
+Ioc0gIIb3_PiK25;XXnW_D0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_sep_of.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_sep_of.v
+R8
+R11
+R28
+R9
+R2
+r1
+!s85 0
+31
+R30
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_sep_of.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_sep_of.v|
+!i113 1
+R4
+R5
+vvcr_sw_alloc_wf
+R29
+!i10b 1
+!s100 eI=QI`RNe:kHjJRGFDc7Y2
+I<M^JMaXb7eY:SgI;EVGYQ1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_wf.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_wf.v
+R8
+R11
+R28
+R9
+R2
+r1
+!s85 0
+31
+R30
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_wf.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_wf.v|
+!i113 1
+R4
+R5
+vvcr_top
+R29
+!i10b 1
+!s100 ]5=TZccIJ9lbV0<5VXXh92
+I0e]n<X;K`J@0hD5e:6EbK2
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_top.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_top.v
+R8
+R11
+R27
+R28
+R9
+R2
+r1
+!s85 0
+31
+R30
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_top.v|
+!i113 1
+R4
+R5
+vvcr_vc_alloc_sep_if
+R29
+!i10b 1
+!s100 am;d[2GZaKhP;a@Eo^R>S0
+IOEgah0[Z7nm`UXOSU?[Ye0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_sep_if.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_sep_if.v
+R8
+R11
+R27
+R28
+R9
+R2
+r1
+!s85 0
+31
+R30
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_sep_if.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_sep_if.v|
+!i113 1
+R4
+R5
+vvcr_vc_alloc_sep_of
+R29
+!i10b 1
+!s100 G<@O<KP=]5[MjN[@=hbGf2
+IzSlQAXanG=gg3ba8_hak^0
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_sep_of.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_sep_of.v
+R8
+R11
+R27
+R28
+R9
+R2
+r1
+!s85 0
+31
+R30
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_sep_of.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_sep_of.v|
+!i113 1
+R4
+R5
+vvcr_vc_alloc_wf
+Z33 !s110 1781275831
+!i10b 1
+!s100 azI=_1V_9[A7;?JEj3Z800
+Idhf`QCF5TG:P>hdA0>>;d3
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_wf.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_wf.v
+R8
+R11
+R27
+R28
+R9
+R2
+r1
+!s85 0
+31
+R30
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\vcr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_wf.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_wf.v|
+!i113 1
+R4
+R5
+vwb_led_matrix_top
+R31
+!i10b 1
+!s100 1ZLSZ;dL[f?8FEH[QBYQ91
+IcGO2VQISdh1m7RabL?4XD0
+R0
+R1
+w1767586633
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_led_matrix_top.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_led_matrix_top.v
+L0 5
+R2
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_led_matrix_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_led_matrix_top.v|
+!i113 1
+R4
+R5
+vwb_ram_top
+R31
+!i10b 1
+!s100 HN5o2GNMT[M;>BLz6W2H23
+I5A:;n8MYZVP9Ll1S`Nkg]3
+R0
+R1
+w1767620041
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_ram_top.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_ram_top.v
+L0 1
+R2
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_ram_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_ram_top.v|
+!i113 1
+R4
+R5
+vwb_timer_top
+R31
+!i10b 1
+!s100 ZhBX]UdfPX_T5Idkco;be2
+Ima9ZcJzXPRIaF7?DFQ;M82
+R0
+R1
+w1767583187
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_timer_top.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_timer_top.v
+L0 5
+R2
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_timer_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_timer_top.v|
+!i113 1
+R4
+R5
+vwb_uart_top
+R31
+!i10b 1
+!s100 4:LG457O`77B:A?EB9<a31
+IK0UC16cWn1IQ?;hYf^]980
+R0
+R1
+w1767624515
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_uart_top.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_uart_top.v
+L0 1
+R2
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_uart_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wb_uart_top.v|
+!i113 1
+R4
+R5
+vwhr_alloc_mac
+R33
+!i10b 1
+!s100 KL]f60NPT=mENH`I<38gl3
+ICFQ>jm9^_@Ib@ln@C9cUG2
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_alloc_mac.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_alloc_mac.v
+R11
+R8
+R9
+R2
+r1
+!s85 0
+31
+Z34 !s108 1781275831.000000
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_alloc_mac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_alloc_mac.v|
+!i113 1
+R4
+R5
+vwhr_ip_ctrl_mac
+R33
+!i10b 1
+!s100 aP5zL1^g7zCB]jKVlC7`B3
+Igo0FT[f<ECo0Cfzfbb9Zi1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_ip_ctrl_mac.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_ip_ctrl_mac.v
+R8
+R11
+R27
+Z35 FC:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\whr_constants.v
+R9
+R2
+r1
+!s85 0
+31
+R34
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\whr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_ip_ctrl_mac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_ip_ctrl_mac.v|
+!i113 1
+R4
+R5
+vwhr_op_ctrl_mac
+R33
+!i10b 1
+!s100 GoP2?zSDkf6hN;SLBgkeK0
+IJ_^0SFLhOaeS1d:Mjd[5B1
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_op_ctrl_mac.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_op_ctrl_mac.v
+R8
+R11
+R27
+R35
+R9
+R2
+r1
+!s85 0
+31
+R34
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\whr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_op_ctrl_mac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_op_ctrl_mac.v|
+!i113 1
+R4
+R5
+vwhr_top
+R33
+!i10b 1
+!s100 Qa3R53<_<Ua9KcMf]YEU82
+IPiNVTS_8TUn@7cTKhabQ93
+R0
+R1
+R7
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_top.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_top.v
+R8
+R11
+R27
+R35
+R9
+R2
+r1
+!s85 0
+31
+R34
+!s107 C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\whr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\rtr_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_constants.v|C:\Users\ASUS\Desktop\code_da1_comp\code_da1_comp\src_router\c_functions.v|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/src_router/whr_top.v|
+!i113 1
+R4
+R5
+vWishbone_Core_Adapter
+R31
+!i10b 1
+!s100 l3E_;lhmh5ZcHdDo2EId:1
+IdHHTLkKALTECI;;VH^;fU2
+R0
+R1
+w1767263697
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Wishbone_Core_Adapter.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Wishbone_Core_Adapter.v
+L0 3
+R2
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Wishbone_Core_Adapter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/Wishbone_Core_Adapter.v|
+!i113 1
+R4
+R5
+n@wishbone_@core_@adapter
+vwishbone_gpio
+R31
+!i10b 1
+!s100 i;:XdQmjkO83ho0z[COI21
+I:=^1l52]HYl8ZO`8oSmlS2
+R0
+R1
+w1767623970
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_gpio.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_gpio.v
+L0 1
+R2
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_gpio.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_gpio.v|
+!i113 1
+R4
+R5
+vwishbone_slave_adapter_led_matrix
+R31
+!i10b 1
+!s100 NSM7Qk;9ATDzW9Je:]`Z82
+I_CZBJ>AnEWXU68m_cUmNO1
+R0
+R1
+w1767586608
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_led_matrix.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_led_matrix.v
+L0 1
+R2
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_led_matrix.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_led_matrix.v|
+!i113 1
+R4
+R5
+vwishbone_slave_adapter_timer
+R31
+!i10b 1
+!s100 5OCc^LLK0?BULa^8;0kdn2
+IGWcV=`X=Gh5k<eU9WCn3`1
+R0
+R1
+w1767583098
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_timer.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_timer.v
+L0 1
+R2
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_timer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_timer.v|
+!i113 1
+R4
+R5
+vwishbone_slave_adapter_uart
+R31
+!i10b 1
+!s100 ;2OSE732ZNNI_X]9lOHfF0
+I5`8_iZcziKj]B=b^E8T8R0
+R0
+R1
+w1767624540
+8C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_uart.v
+FC:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_uart.v
+L0 1
+R2
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_uart.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/wishbone_slave_adapter_uart.v|
+!i113 1
+R4
+R5

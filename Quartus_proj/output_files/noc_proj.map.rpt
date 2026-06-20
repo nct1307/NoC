@@ -1,0 +1,622 @@
+Analysis & Synthesis report for noc_proj
+Fri Jun 12 21:33:39 2026
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Messages
+  6. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Failed - Fri Jun 12 21:33:39 2026               ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; noc_proj                                        ;
+; Top-level Entity Name              ; noc_system                                      ;
+; Family                             ; Cyclone IV GX                                   ;
+; Total logic elements               ; N/A until Partition Merge                       ;
+;     Total combinational functions  ; N/A until Partition Merge                       ;
+;     Dedicated logic registers      ; N/A until Partition Merge                       ;
+; Total registers                    ; N/A until Partition Merge                       ;
+; Total pins                         ; N/A until Partition Merge                       ;
+; Total virtual pins                 ; N/A until Partition Merge                       ;
+; Total memory bits                  ; N/A until Partition Merge                       ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                       ;
+; Total GXB Receiver Channel PCS     ; N/A until Partition Merge                       ;
+; Total GXB Receiver Channel PMA     ; N/A until Partition Merge                       ;
+; Total GXB Transmitter Channel PCS  ; N/A until Partition Merge                       ;
+; Total GXB Transmitter Channel PMA  ; N/A until Partition Merge                       ;
+; Total PLLs                         ; N/A until Partition Merge                       ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP4CGX150DF27I7AF  ;                    ;
+; Top-level entity name                                                      ; noc_system         ; noc_proj           ;
+; Family name                                                                ; Cyclone IV GX      ; Cyclone IV GX      ;
+; Verilog Show LMF Mapping Messages                                          ; Off                ;                    ;
+; Verilog Version                                                            ; SystemVerilog_2005 ; Verilog_2001       ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 8           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-12        ;   0.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Fri Jun 12 21:33:08 2026
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off noc_proj -c noc_proj
+Info (11104): Parallel Compilation has detected 12 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 8 of the 8 physical processors detected instead.
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/whr_top.v
+    Info (12023): Found entity 1: whr_top
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/whr_op_ctrl_mac.v
+    Info (12023): Found entity 1: whr_op_ctrl_mac
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/whr_ip_ctrl_mac.v
+    Info (12023): Found entity 1: whr_ip_ctrl_mac
+Info (12021): Found 0 design units, including 0 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/whr_constants.v
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/whr_alloc_mac.v
+    Info (12023): Found entity 1: whr_alloc_mac
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_wf.v
+    Info (12023): Found entity 1: vcr_vc_alloc_wf
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_sep_of.v
+    Info (12023): Found entity 1: vcr_vc_alloc_sep_of
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/vcr_vc_alloc_sep_if.v
+    Info (12023): Found entity 1: vcr_vc_alloc_sep_if
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/vcr_top.v
+    Info (12023): Found entity 1: vcr_top
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_wf.v
+    Info (12023): Found entity 1: vcr_sw_alloc_wf
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_sep_of.v
+    Info (12023): Found entity 1: vcr_sw_alloc_sep_of
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/vcr_sw_alloc_sep_if.v
+    Info (12023): Found entity 1: vcr_sw_alloc_sep_if
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/vcr_ovc_ctrl.v
+    Info (12023): Found entity 1: vcr_ovc_ctrl
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/vcr_op_ctrl_mac.v
+    Info (12023): Found entity 1: vcr_op_ctrl_mac
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/vcr_ivc_ctrl.v
+    Info (12023): Found entity 1: vcr_ivc_ctrl
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/vcr_ip_ctrl_mac.v
+    Info (12023): Found entity 1: vcr_ip_ctrl_mac
+Info (12021): Found 0 design units, including 0 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/vcr_constants.v
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/vcr_alloc_mac.v
+    Info (12023): Found entity 1: vcr_alloc_mac
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_top.v
+    Info (12023): Found entity 1: rtr_top
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_routing_logic.v
+    Info (12023): Found entity 1: rtr_routing_logic
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_route_filter.v
+    Info (12023): Found entity 1: rtr_route_filter
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_op_ctrl_mac.v
+    Info (12023): Found entity 1: rtr_op_ctrl_mac
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_next_hop_addr.v
+    Info (12023): Found entity 1: rtr_next_hop_addr
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_ip_ctrl_mac.v
+    Info (12023): Found entity 1: rtr_ip_ctrl_mac
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_flow_ctrl_output.v
+    Info (12023): Found entity 1: rtr_flow_ctrl_output
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_flow_ctrl_input.v
+    Info (12023): Found entity 1: rtr_flow_ctrl_input
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_flit_type_check.v
+    Info (12023): Found entity 1: rtr_flit_type_check
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_flit_buffer.v
+    Info (12023): Found entity 1: rtr_flit_buffer
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_flags_mux.v
+    Info (12023): Found entity 1: rtr_flags_mux
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_fc_state.v
+    Info (12023): Found entity 1: rtr_fc_state
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_crossbar_mac.v
+    Info (12023): Found entity 1: rtr_crossbar_mac
+Info (12021): Found 0 design units, including 0 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_constants.v
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_channel_output.v
+    Info (12023): Found entity 1: rtr_channel_output
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_channel_input.v
+    Info (12023): Found entity 1: rtr_channel_input
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/rtr_alloc_mac.v
+    Info (12023): Found entity 1: rtr_alloc_mac
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/router_wrap.v
+    Info (12023): Found entity 1: router_wrap
+Info (12021): Found 0 design units, including 0 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/parameters.v
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_sdpa.v
+    Info (12023): Found entity 1: c_wf_alloc_sdpa
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_rot.v
+    Info (12023): Found entity 1: c_wf_alloc_rot
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_rep.v
+    Info (12023): Found entity 1: c_wf_alloc_rep
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_mux.v
+    Info (12023): Found entity 1: c_wf_alloc_mux
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_loop.v
+    Info (12023): Found entity 1: c_wf_alloc_loop
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc_dpa.v
+    Info (12023): Found entity 1: c_wf_alloc_dpa
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_wf_alloc.v
+    Info (12023): Found entity 1: c_wf_alloc
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_shift_reg.v
+    Info (12023): Found entity 1: c_shift_reg
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_select_mofn.v
+    Info (12023): Found entity 1: c_select_mofn
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_select_1ofn.v
+    Info (12023): Found entity 1: c_select_1ofn
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_scatter.v
+    Info (12023): Found entity 1: c_scatter
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_samq_tracker.v
+    Info (12023): Found entity 1: c_samq_tracker
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_samq_ctrl.v
+    Info (12023): Found entity 1: c_samq_ctrl
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_rr_arbiter_base.v
+    Info (12023): Found entity 1: c_rr_arbiter_base
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_rr_arbiter.v
+    Info (12023): Found entity 1: c_rr_arbiter
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_rotate.v
+    Info (12023): Found entity 1: c_rotate
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_reverse.v
+    Info (12023): Found entity 1: c_reverse
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_regfile.v
+    Info (12023): Found entity 1: c_regfile
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_reduce_bits.v
+    Info (12023): Found entity 1: c_reduce_bits
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_prio_sel.v
+    Info (12023): Found entity 1: c_prio_sel
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_prio_enc.v
+    Info (12023): Found entity 1: c_prio_enc
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_net.v
+    Info (12023): Found entity 1: c_prefix_net
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_arbiter_base.v
+    Info (12023): Found entity 1: c_prefix_arbiter_base
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_prefix_arbiter.v
+    Info (12023): Found entity 1: c_prefix_arbiter
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_one_hot_therm_conv.v
+    Info (12023): Found entity 1: c_one_hot_therm_conv
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_one_hot_filter.v
+    Info (12023): Found entity 1: c_one_hot_filter
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_multi_hot_det.v
+    Info (12023): Found entity 1: c_multi_hot_det
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_matrix_arbiter.v
+    Info (12023): Found entity 1: c_matrix_arbiter
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_mat_mult.v
+    Info (12023): Found entity 1: c_mat_mult
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_lod.v
+    Info (12023): Found entity 1: c_lod
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_lfsr.v
+    Info (12023): Found entity 1: c_lfsr
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_interleave.v
+    Info (12023): Found entity 1: c_interleave
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_incr.v
+    Info (12023): Found entity 1: c_incr
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_gather.v
+    Info (12023): Found entity 1: c_gather
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_gate_bits.v
+    Info (12023): Found entity 1: c_gate_bits
+Info (12021): Found 0 design units, including 0 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_functions.v
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_fifo_tracker.v
+    Info (12023): Found entity 1: c_fifo_tracker
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_fifo_ctrl.v
+    Info (12023): Found entity 1: c_fifo_ctrl
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_fifo.v
+    Info (12023): Found entity 1: c_fifo
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_fbmult.v
+    Info (12023): Found entity 1: c_fbmult
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_fbgen.v
+    Info (12023): Found entity 1: c_fbgen
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_err_rpt.v
+    Info (12023): Found entity 1: c_err_rpt
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_encode.v
+    Info (12023): Found entity 1: c_encode
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_diag_op.v
+    Info (12023): Found entity 1: c_diag_op
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_dff.v
+    Info (12023): Found entity 1: c_dff
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_decr.v
+    Info (12023): Found entity 1: c_decr
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_decode.v
+    Info (12023): Found entity 1: c_decode
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_damq_tracker.v
+    Info (12023): Found entity 1: c_damq_tracker
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_damq_ctrl.v
+    Info (12023): Found entity 1: c_damq_ctrl
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_crossbar.v
+    Info (12023): Found entity 1: c_crossbar
+Info (12021): Found 0 design units, including 0 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_constants.v
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_clkgate.v
+    Info (12023): Found entity 1: c_clkgate
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_binary_op.v
+    Info (12023): Found entity 1: c_binary_op
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_arbiter.v
+    Info (12023): Found entity 1: c_arbiter
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_align.v
+    Info (12023): Found entity 1: c_align
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/code_da1_comp/code_da1_comp/src_router/c_add_nto1.v
+    Info (12023): Found entity 1: c_add_nto1
+Info (12021): Found 1 design units, including 1 entities, in source file control_unit.v
+    Info (12023): Found entity 1: Control_Unit
+Info (12021): Found 1 design units, including 1 entities, in source file load_store_unit.v
+    Info (12023): Found entity 1: Load_Store_Unit
+Info (12021): Found 1 design units, including 1 entities, in source file pc.v
+    Info (12023): Found entity 1: PC
+Info (12021): Found 1 design units, including 1 entities, in source file instruction_mem.v
+    Info (12023): Found entity 1: instruction_Mem
+Info (12021): Found 1 design units, including 1 entities, in source file rf_32_32.v
+    Info (12023): Found entity 1: rf_32_32
+Info (12021): Found 1 design units, including 1 entities, in source file alu.v
+    Info (12023): Found entity 1: alu
+Info (12021): Found 1 design units, including 1 entities, in source file sign_extend.v
+    Info (12023): Found entity 1: Sign_Extend
+Info (12021): Found 1 design units, including 1 entities, in source file rv32i.v
+    Info (12023): Found entity 1: RV32I
+Info (12021): Found 1 design units, including 1 entities, in source file wishbone_core_adapter.v
+    Info (12023): Found entity 1: Wishbone_Core_Adapter
+Info (12021): Found 1 design units, including 1 entities, in source file tile_core_wrapper.v
+    Info (12023): Found entity 1: tile_core_wrapper
+Info (12021): Found 1 design units, including 1 entities, in source file ni_core.v
+    Info (12023): Found entity 1: ni_core
+Info (12021): Found 1 design units, including 1 entities, in source file tile_ram_wrapper.v
+    Info (12023): Found entity 1: tile_ram_wrapper
+Info (12021): Found 1 design units, including 1 entities, in source file wb_ram_top.v
+    Info (12023): Found entity 1: wb_ram_top
+Info (12021): Found 1 design units, including 1 entities, in source file ram_slave_interface.v
+    Info (12023): Found entity 1: ram_slave_interface
+Info (12021): Found 1 design units, including 1 entities, in source file ram.v
+    Info (12023): Found entity 1: ram
+Info (12021): Found 1 design units, including 1 entities, in source file noc_system.v
+    Info (12023): Found entity 1: noc_system
+Info (12021): Found 1 design units, including 1 entities, in source file tb_noc_system.v
+    Info (12023): Found entity 1: tb_noc_system
+Info (12021): Found 1 design units, including 1 entities, in source file timer.v
+    Info (12023): Found entity 1: timer
+Info (12021): Found 1 design units, including 1 entities, in source file wishbone_slave_adapter_timer.v
+    Info (12023): Found entity 1: wishbone_slave_adapter_timer
+Info (12021): Found 1 design units, including 1 entities, in source file wb_timer_top.v
+    Info (12023): Found entity 1: wb_timer_top
+Info (12021): Found 1 design units, including 1 entities, in source file ni_ip.v
+    Info (12023): Found entity 1: ni_ip
+Info (12021): Found 1 design units, including 1 entities, in source file tile_timer_wrapper.v
+    Info (12023): Found entity 1: tile_timer_wrapper
+Info (12021): Found 1 design units, including 1 entities, in source file led_matrix.v
+    Info (12023): Found entity 1: led_matrix
+Info (12021): Found 1 design units, including 1 entities, in source file wishbone_slave_adapter_led_matrix.v
+    Info (12023): Found entity 1: wishbone_slave_adapter_led_matrix
+Info (12021): Found 1 design units, including 1 entities, in source file wb_led_matrix_top.v
+    Info (12023): Found entity 1: wb_led_matrix_top
+Info (12021): Found 1 design units, including 1 entities, in source file tile_led_matrix_wrapper.v
+    Info (12023): Found entity 1: tile_led_matrix_wrapper
+Info (12021): Found 1 design units, including 1 entities, in source file gpio_basic.v
+    Info (12023): Found entity 1: gpio_basic
+Info (12021): Found 1 design units, including 1 entities, in source file wishbone_gpio.v
+    Info (12023): Found entity 1: wishbone_gpio
+Info (12021): Found 1 design units, including 1 entities, in source file tile_gpio_wrapper.v
+    Info (12023): Found entity 1: tile_gpio_wrapper
+Info (12021): Found 1 design units, including 1 entities, in source file uart_receiver.v
+    Info (12023): Found entity 1: uart_receiver
+Info (12021): Found 1 design units, including 1 entities, in source file uart_transmitter.v
+    Info (12023): Found entity 1: uart_transmitter
+Info (12021): Found 1 design units, including 1 entities, in source file uart.v
+    Info (12023): Found entity 1: uart
+Info (12021): Found 1 design units, including 1 entities, in source file wb_uart_top.v
+    Info (12023): Found entity 1: wb_uart_top
+Info (12021): Found 1 design units, including 1 entities, in source file wishbone_slave_adapter_uart.v
+    Info (12023): Found entity 1: wishbone_slave_adapter_uart
+Info (12021): Found 1 design units, including 1 entities, in source file tile_uart_wrapper.v
+    Info (12023): Found entity 1: tile_uart_wrapper
+Warning (10037): Verilog HDL or VHDL warning at rtr_ip_ctrl_mac.v(382): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at rtr_ip_ctrl_mac.v(430): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at rtr_ip_ctrl_mac.v(619): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at rtr_ip_ctrl_mac.v(669): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at rtr_ip_ctrl_mac.v(968): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at rtr_alloc_mac.v(370): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at rtr_alloc_mac.v(809): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at rtr_alloc_mac.v(1084): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at rtr_alloc_mac.v(1550): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at rtr_alloc_mac.v(1752): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at rtr_alloc_mac.v(1875): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at rtr_alloc_mac.v(1968): conditional expression evaluates to a constant
+Info (12127): Elaborating entity "noc_system" for the top level hierarchy
+Info (12128): Elaborating entity "router_wrap" for hierarchy "router_wrap:rtr_0"
+Info (12128): Elaborating entity "vcr_top" for hierarchy "router_wrap:rtr_0|vcr_top:vcr"
+Warning (10036): Verilog HDL or VHDL warning at vcr_top.v(498): object "xbr_ctrl_ip" assigned a value but never read
+Info (12128): Elaborating entity "vcr_ip_ctrl_mac" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc"
+Warning (10036): Verilog HDL or VHDL warning at vcr_ip_ctrl_mac.v(336): object "free_spec_ivc" assigned a value but never read
+Info (12128): Elaborating entity "rtr_channel_input" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_channel_input:chi"
+Warning (10036): Verilog HDL or VHDL warning at rtr_channel_input.v(204): object "header_info_q" assigned a value but never read
+Info (12128): Elaborating entity "c_dff" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_channel_input:chi|c_dff:flit_dataq"
+Info (12128): Elaborating entity "c_dff" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_channel_input:chi|c_dff:flit_validq"
+Info (12128): Elaborating entity "c_dff" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_channel_input:chi|c_dff:flit_ctrlq"
+Info (12128): Elaborating entity "c_decode" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_channel_input:chi|c_decode:flit_sel_out_ivc_dec"
+Info (12128): Elaborating entity "c_select_1ofn" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|c_select_1ofn:spec_mask_sel"
+Info (10264): Verilog HDL Case Statement information at c_select_1ofn.v(89): all case item expressions in this case statement are onehot
+Info (12128): Elaborating entity "vcr_ivc_ctrl" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[0].ivcc"
+Info (12128): Elaborating entity "c_align" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|c_align:vc_allocated_next_ovc_agn"
+Info (12128): Elaborating entity "c_dff" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|c_dff:htr_flit_headq"
+Info (12128): Elaborating entity "c_dff" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|c_dff:hdr_dest_infoq"
+Info (12128): Elaborating entity "c_decode" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|c_decode:route_in_op_dec"
+Info (12128): Elaborating entity "rtr_route_filter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|rtr_route_filter:rf"
+Info (12128): Elaborating entity "rtr_next_hop_addr" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|rtr_next_hop_addr:nha"
+Warning (10036): Verilog HDL or VHDL warning at rtr_next_hop_addr.v(145): object "dest_addr" assigned a value but never read
+Info (12128): Elaborating entity "rtr_routing_logic" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|rtr_routing_logic:rtl"
+Warning (10036): Verilog HDL or VHDL warning at rtr_routing_logic.v(198): object "dest_minus_curr" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at rtr_routing_logic.v(203): object "curr_minus_dest" assigned a value but never read
+Info (12128): Elaborating entity "c_select_1ofn" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|rtr_routing_logic:rtl|c_select_1ofn:route_onp_sel"
+Info (12128): Elaborating entity "c_encode" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|c_encode:next_route_port_enc"
+Warning (10230): Verilog HDL assignment warning at c_encode.v(122): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at c_encode.v(124): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at c_encode.v(126): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at c_encode.v(128): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at c_encode.v(130): truncated value with size 32 to match size of target (3)
+Info (10264): Verilog HDL Case Statement information at c_encode.v(120): all case item expressions in this case statement are onehot
+Info (12128): Elaborating entity "c_select_1ofn" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|c_select_1ofn:almost_full_ovc_sel"
+Info (10264): Verilog HDL Case Statement information at c_select_1ofn.v(131): all case item expressions in this case statement are onehot
+Info (12128): Elaborating entity "c_select_1ofn" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|c_select_1ofn:free_nonspec_muxed_sel"
+Info (12128): Elaborating entity "rtr_flit_type_check" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|rtr_flit_type_check:ftc"
+Info (12128): Elaborating entity "vcr_ivc_ctrl" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[1].ivcc"
+Info (12128): Elaborating entity "c_align" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[1].ivcc|c_align:vc_allocated_next_ovc_agn"
+Info (12128): Elaborating entity "rtr_route_filter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|vcr_ivc_ctrl:ivcs[1].ivcc|rtr_route_filter:rf"
+Info (12128): Elaborating entity "rtr_flit_buffer" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb"
+Info (12128): Elaborating entity "c_dff" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_dff:ivcs[0].tailq"
+Info (12128): Elaborating entity "c_samq_ctrl" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_samq_ctrl:samqc"
+Info (12128): Elaborating entity "c_fifo_ctrl" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_samq_ctrl:samqc|c_fifo_ctrl:queues[0].fc"
+Warning (10230): Verilog HDL assignment warning at c_fifo_ctrl.v(52): truncated value with size 32 to match size of target (2)
+Warning (10230): Verilog HDL assignment warning at c_fifo_ctrl.v(55): truncated value with size 32 to match size of target (2)
+Info (12128): Elaborating entity "c_incr" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_samq_ctrl:samqc|c_fifo_ctrl:queues[0].fc|c_incr:push_addr_incr"
+Warning (10036): Verilog HDL or VHDL warning at c_incr.v(55): object "wrap" assigned a value but never read
+Info (12128): Elaborating entity "c_decr" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_samq_ctrl:samqc|c_fifo_ctrl:queues[0].fc|c_decr:push_addr_decr"
+Warning (10036): Verilog HDL or VHDL warning at c_decr.v(55): object "wrap" assigned a value but never read
+Info (12128): Elaborating entity "c_incr" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_samq_ctrl:samqc|c_incr:queues[0].pop_next_addr_inc_incr"
+Warning (10036): Verilog HDL or VHDL warning at c_incr.v(55): object "wrap" assigned a value but never read
+Info (12128): Elaborating entity "c_dff" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_samq_ctrl:samqc|c_dff:queues[0].pop_next_addrq"
+Info (12128): Elaborating entity "c_fifo_ctrl" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_samq_ctrl:samqc|c_fifo_ctrl:queues[1].fc"
+Warning (10230): Verilog HDL assignment warning at c_fifo_ctrl.v(52): truncated value with size 32 to match size of target (2)
+Warning (10230): Verilog HDL assignment warning at c_fifo_ctrl.v(55): truncated value with size 32 to match size of target (2)
+Info (12128): Elaborating entity "c_incr" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_samq_ctrl:samqc|c_fifo_ctrl:queues[1].fc|c_incr:push_addr_incr"
+Warning (10036): Verilog HDL or VHDL warning at c_incr.v(55): object "wrap" assigned a value but never read
+Info (12128): Elaborating entity "c_decr" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_samq_ctrl:samqc|c_fifo_ctrl:queues[1].fc|c_decr:push_addr_decr"
+Warning (10036): Verilog HDL or VHDL warning at c_decr.v(55): object "wrap" assigned a value but never read
+Info (12128): Elaborating entity "c_dff" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_samq_ctrl:samqc|c_fifo_ctrl:queues[1].fc|c_dff:push_addrq"
+Info (12128): Elaborating entity "c_incr" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_samq_ctrl:samqc|c_incr:queues[1].pop_next_addr_inc_incr"
+Warning (10036): Verilog HDL or VHDL warning at c_incr.v(55): object "wrap" assigned a value but never read
+Info (12128): Elaborating entity "c_dff" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_samq_ctrl:samqc|c_dff:queues[1].pop_next_addrq"
+Info (12128): Elaborating entity "c_select_1ofn" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_select_1ofn:push_addr_sel"
+Info (10264): Verilog HDL Case Statement information at c_select_1ofn.v(89): all case item expressions in this case statement are onehot
+Info (12128): Elaborating entity "c_regfile" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flit_buffer:fb|c_regfile:bf"
+Info (12128): Elaborating entity "c_select_1ofn" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|c_select_1ofn:netx_lar_info_sel"
+Info (10264): Verilog HDL Case Statement information at c_select_1ofn.v(89): all case item expressions in this case statement are onehot
+Info (12128): Elaborating entity "rtr_flow_ctrl_output" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flow_ctrl_output:fco"
+Info (12128): Elaborating entity "c_encode" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|rtr_flow_ctrl_output:fco|c_encode:cred_vc_enc"
+Warning (10230): Verilog HDL assignment warning at c_encode.v(80): truncated value with size 32 to match size of target (1)
+Warning (10230): Verilog HDL assignment warning at c_encode.v(82): truncated value with size 32 to match size of target (1)
+Info (10264): Verilog HDL Case Statement information at c_encode.v(78): all case item expressions in this case statement are onehot
+Info (12128): Elaborating entity "c_err_rpt" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|c_err_rpt:chk"
+Info (12128): Elaborating entity "c_dff" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[0].ipc|c_err_rpt:chk|c_dff:errorsq"
+Info (12128): Elaborating entity "vcr_ip_ctrl_mac" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[1].ipc"
+Warning (10036): Verilog HDL or VHDL warning at vcr_ip_ctrl_mac.v(336): object "free_spec_ivc" assigned a value but never read
+Info (12128): Elaborating entity "vcr_ivc_ctrl" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[1].ipc|vcr_ivc_ctrl:ivcs[0].ivcc"
+Info (12128): Elaborating entity "rtr_route_filter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[1].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|rtr_route_filter:rf"
+Info (12128): Elaborating entity "vcr_ivc_ctrl" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[1].ipc|vcr_ivc_ctrl:ivcs[1].ivcc"
+Info (12128): Elaborating entity "rtr_route_filter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[1].ipc|vcr_ivc_ctrl:ivcs[1].ivcc|rtr_route_filter:rf"
+Info (12128): Elaborating entity "vcr_ip_ctrl_mac" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[2].ipc"
+Warning (10036): Verilog HDL or VHDL warning at vcr_ip_ctrl_mac.v(336): object "free_spec_ivc" assigned a value but never read
+Info (12128): Elaborating entity "vcr_ivc_ctrl" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[2].ipc|vcr_ivc_ctrl:ivcs[0].ivcc"
+Info (12128): Elaborating entity "rtr_route_filter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[2].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|rtr_route_filter:rf"
+Info (12128): Elaborating entity "vcr_ivc_ctrl" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[2].ipc|vcr_ivc_ctrl:ivcs[1].ivcc"
+Info (12128): Elaborating entity "rtr_route_filter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[2].ipc|vcr_ivc_ctrl:ivcs[1].ivcc|rtr_route_filter:rf"
+Info (12128): Elaborating entity "vcr_ip_ctrl_mac" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[3].ipc"
+Warning (10036): Verilog HDL or VHDL warning at vcr_ip_ctrl_mac.v(336): object "free_spec_ivc" assigned a value but never read
+Info (12128): Elaborating entity "vcr_ivc_ctrl" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[3].ipc|vcr_ivc_ctrl:ivcs[0].ivcc"
+Info (12128): Elaborating entity "rtr_route_filter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[3].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|rtr_route_filter:rf"
+Info (12128): Elaborating entity "vcr_ivc_ctrl" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[3].ipc|vcr_ivc_ctrl:ivcs[1].ivcc"
+Info (12128): Elaborating entity "rtr_route_filter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[3].ipc|vcr_ivc_ctrl:ivcs[1].ivcc|rtr_route_filter:rf"
+Info (12128): Elaborating entity "vcr_ip_ctrl_mac" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[4].ipc"
+Warning (10036): Verilog HDL or VHDL warning at vcr_ip_ctrl_mac.v(336): object "free_spec_ivc" assigned a value but never read
+Info (12128): Elaborating entity "vcr_ivc_ctrl" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[4].ipc|vcr_ivc_ctrl:ivcs[0].ivcc"
+Info (12128): Elaborating entity "rtr_route_filter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[4].ipc|vcr_ivc_ctrl:ivcs[0].ivcc|rtr_route_filter:rf"
+Info (12128): Elaborating entity "vcr_ivc_ctrl" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[4].ipc|vcr_ivc_ctrl:ivcs[1].ivcc"
+Info (12128): Elaborating entity "rtr_route_filter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_ip_ctrl_mac:ips[4].ipc|vcr_ivc_ctrl:ivcs[1].ivcc|rtr_route_filter:rf"
+Info (12128): Elaborating entity "vcr_alloc_mac" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo"
+Info (12128): Elaborating entity "c_reduce_bits" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|c_reduce_bits:vc_active_ip_rb"
+Info (12128): Elaborating entity "c_binary_op" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|c_reduce_bits:vc_active_ip_rb|c_binary_op:ps[0].bop"
+Info (12128): Elaborating entity "c_select_mofn" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|c_select_mofn:vc_active_op_sel"
+Info (12128): Elaborating entity "c_binary_op" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|c_select_mofn:vc_active_op_sel|c_binary_op:width_loop[0].ports_loop[0].prod"
+Info (12128): Elaborating entity "c_binary_op" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|c_select_mofn:vc_active_op_sel|c_binary_op:width_loop[0].sum"
+Info (12128): Elaborating entity "vcr_vc_alloc_sep_if" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_vc_alloc_sep_if:vc_core_sep_if"
+Warning (10036): Verilog HDL or VHDL warning at vcr_vc_alloc_sep_if.v(428): object "elig" assigned a value but never read
+Info (12128): Elaborating entity "c_binary_op" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_vc_alloc_sep_if:vc_core_sep_if|c_binary_op:mcs[0].ips[0].ircs[0].icvcs[0].gnt_out_orc_ocvc_or"
+Info (12128): Elaborating entity "c_arbiter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_vc_alloc_sep_if:vc_core_sep_if|c_arbiter:mcs[0].ips[0].ircs[0].icvcs[0].orcs[0].gnt_ocvc_arb"
+Info (12128): Elaborating entity "c_lod" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_vc_alloc_sep_if:vc_core_sep_if|c_arbiter:mcs[0].ips[0].ircs[0].icvcs[0].orcs[0].gnt_ocvc_arb|c_lod:gnt_lod"
+Warning (10036): Verilog HDL or VHDL warning at c_lod.v(52): object "a_int" assigned a value but never read
+Info (12128): Elaborating entity "c_interleave" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_vc_alloc_sep_if:vc_core_sep_if|c_interleave:mcs[0].req_out_op_orc_ocvc_ip_irc_icvc_intl"
+Info (12128): Elaborating entity "c_reduce_bits" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_vc_alloc_sep_if:vc_core_sep_if|c_reduce_bits:mcs[0].ops[0].orcs[0].ocvcs[0].req_out_ip_rb"
+Info (12128): Elaborating entity "c_binary_op" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_vc_alloc_sep_if:vc_core_sep_if|c_reduce_bits:mcs[0].ops[0].orcs[0].ocvcs[0].req_out_ip_rb|c_binary_op:ps[0].bop"
+Info (12128): Elaborating entity "c_arbiter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_vc_alloc_sep_if:vc_core_sep_if|c_arbiter:mcs[0].ops[0].orcs[0].ocvcs[0].gnt_out_ip_arb"
+Info (12128): Elaborating entity "c_rr_arbiter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_vc_alloc_sep_if:vc_core_sep_if|c_arbiter:mcs[0].ops[0].orcs[0].ocvcs[0].gnt_out_ip_arb|c_rr_arbiter:rr_arb"
+Info (12128): Elaborating entity "c_rr_arbiter_base" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_vc_alloc_sep_if:vc_core_sep_if|c_arbiter:mcs[0].ops[0].orcs[0].ocvcs[0].gnt_out_ip_arb|c_rr_arbiter:rr_arb|c_rr_arbiter_base:prios[0].gnt_ab"
+Info (12128): Elaborating entity "c_lod" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_vc_alloc_sep_if:vc_core_sep_if|c_arbiter:mcs[0].ops[0].orcs[0].ocvcs[0].gnt_out_ip_arb|c_rr_arbiter:rr_arb|c_rr_arbiter_base:prios[0].gnt_ab|c_lod:gnt_qual_lod"
+Info (12128): Elaborating entity "c_encode" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_vc_alloc_sep_if:vc_core_sep_if|c_arbiter:mcs[0].ops[0].orcs[0].ocvcs[0].gnt_out_ip_arb|c_rr_arbiter:rr_arb|c_encode:next_state_enc"
+Warning (10230): Verilog HDL assignment warning at c_encode.v(122): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at c_encode.v(124): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at c_encode.v(126): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at c_encode.v(128): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at c_encode.v(130): truncated value with size 32 to match size of target (3)
+Info (10264): Verilog HDL Case Statement information at c_encode.v(120): all case item expressions in this case statement are onehot
+Info (12128): Elaborating entity "c_decode" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_vc_alloc_sep_if:vc_core_sep_if|c_arbiter:mcs[0].ops[0].orcs[0].ocvcs[0].gnt_out_ip_arb|c_rr_arbiter:rr_arb|c_decode:state_therm_dec"
+Info (12128): Elaborating entity "vcr_sw_alloc_sep_if" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_sw_alloc_sep_if:sw_core_sep_if"
+Info (12128): Elaborating entity "c_arbiter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_sw_alloc_sep_if:sw_core_sep_if|c_arbiter:ips[0].gnt_in_nonspec_ivc_arb"
+Info (12128): Elaborating entity "c_rr_arbiter" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_sw_alloc_sep_if:sw_core_sep_if|c_arbiter:ips[0].gnt_in_nonspec_ivc_arb|c_rr_arbiter:rr_arb"
+Info (12128): Elaborating entity "c_rr_arbiter_base" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_sw_alloc_sep_if:sw_core_sep_if|c_arbiter:ips[0].gnt_in_nonspec_ivc_arb|c_rr_arbiter:rr_arb|c_rr_arbiter_base:prios[0].gnt_ab"
+Info (12128): Elaborating entity "c_lod" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_sw_alloc_sep_if:sw_core_sep_if|c_arbiter:ips[0].gnt_in_nonspec_ivc_arb|c_rr_arbiter:rr_arb|c_rr_arbiter_base:prios[0].gnt_ab|c_lod:gnt_qual_lod"
+Info (12128): Elaborating entity "c_encode" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_sw_alloc_sep_if:sw_core_sep_if|c_arbiter:ips[0].gnt_in_nonspec_ivc_arb|c_rr_arbiter:rr_arb|c_encode:next_state_enc"
+Warning (10230): Verilog HDL assignment warning at c_encode.v(80): truncated value with size 32 to match size of target (1)
+Warning (10230): Verilog HDL assignment warning at c_encode.v(82): truncated value with size 32 to match size of target (1)
+Info (10264): Verilog HDL Case Statement information at c_encode.v(78): all case item expressions in this case statement are onehot
+Info (12128): Elaborating entity "c_decode" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_sw_alloc_sep_if:sw_core_sep_if|c_arbiter:ips[0].gnt_in_nonspec_ivc_arb|c_rr_arbiter:rr_arb|c_decode:state_therm_dec"
+Info (12128): Elaborating entity "c_select_mofn" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_sw_alloc_sep_if:sw_core_sep_if|c_select_mofn:ips[0].req_in_nonspec_ip_op_sel"
+Info (12128): Elaborating entity "c_binary_op" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|vcr_sw_alloc_sep_if:sw_core_sep_if|c_binary_op:unused_by_nonspec_op_nor"
+Info (12128): Elaborating entity "c_select_1ofn" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|c_select_1ofn:ops[0].flit_head_sel"
+Info (10264): Verilog HDL Case Statement information at c_select_1ofn.v(131): all case item expressions in this case statement are onehot
+Info (12128): Elaborating entity "c_dff" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_alloc_mac:alo|c_dff:ops[0].xbr_ctrl_ipq"
+Info (12128): Elaborating entity "rtr_crossbar_mac" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|rtr_crossbar_mac:xbr"
+Info (12128): Elaborating entity "c_crossbar" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|rtr_crossbar_mac:xbr|c_crossbar:xbr"
+Info (12128): Elaborating entity "c_select_1ofn" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|rtr_crossbar_mac:xbr|c_crossbar:xbr|c_select_1ofn:ops[0].out_mux"
+Info (10264): Verilog HDL Case Statement information at c_select_1ofn.v(131): all case item expressions in this case statement are onehot
+Info (12128): Elaborating entity "vcr_op_ctrl_mac" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_op_ctrl_mac:ops[0].opc"
+Warning (10036): Verilog HDL or VHDL warning at vcr_op_ctrl_mac.v(318): object "fc_event_sel" assigned a value but never read
+Info (12128): Elaborating entity "rtr_flow_ctrl_input" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_op_ctrl_mac:ops[0].opc|rtr_flow_ctrl_input:fci"
+Info (12128): Elaborating entity "rtr_fc_state" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_op_ctrl_mac:ops[0].opc|rtr_fc_state:fcs"
+Warning (10036): Verilog HDL or VHDL warning at rtr_fc_state.v(155): object "credit_ovc" assigned a value but never read
+Info (12128): Elaborating entity "c_samq_tracker" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_op_ctrl_mac:ops[0].opc|rtr_fc_state:fcs|c_samq_tracker:samqt"
+Info (12128): Elaborating entity "c_fifo_tracker" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_op_ctrl_mac:ops[0].opc|rtr_fc_state:fcs|c_samq_tracker:samqt|c_fifo_tracker:queues[0].ft"
+Info (12128): Elaborating entity "c_decr" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_op_ctrl_mac:ops[0].opc|rtr_fc_state:fcs|c_samq_tracker:samqt|c_fifo_tracker:queues[0].ft|c_decr:free_minus1_decr"
+Warning (10230): Verilog HDL assignment warning at c_decr.v(40): truncated value with size 32 to match size of target (2)
+Warning (10036): Verilog HDL or VHDL warning at c_decr.v(55): object "wrap" assigned a value but never read
+Info (12128): Elaborating entity "c_incr" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_op_ctrl_mac:ops[0].opc|rtr_fc_state:fcs|c_samq_tracker:samqt|c_fifo_tracker:queues[0].ft|c_incr:free_plus1_incr"
+Warning (10230): Verilog HDL assignment warning at c_incr.v(40): truncated value with size 32 to match size of target (2)
+Warning (10036): Verilog HDL or VHDL warning at c_incr.v(55): object "wrap" assigned a value but never read
+Info (12128): Elaborating entity "c_dff" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_op_ctrl_mac:ops[0].opc|rtr_fc_state:fcs|c_samq_tracker:samqt|c_fifo_tracker:queues[0].ft|c_dff:freeq"
+Info (12128): Elaborating entity "vcr_ovc_ctrl" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_op_ctrl_mac:ops[0].opc|vcr_ovc_ctrl:ovcs[0].ovcc"
+Info (12128): Elaborating entity "c_multi_hot_det" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_op_ctrl_mac:ops[0].opc|c_multi_hot_det:flit_multisel_mhd"
+Info (12128): Elaborating entity "rtr_channel_output" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_op_ctrl_mac:ops[0].opc|rtr_channel_output:cho"
+Info (12128): Elaborating entity "c_err_rpt" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_op_ctrl_mac:ops[0].opc|c_err_rpt:chk"
+Info (12128): Elaborating entity "c_dff" for hierarchy "router_wrap:rtr_0|vcr_top:vcr|vcr_op_ctrl_mac:ops[0].opc|c_err_rpt:chk|c_dff:errorsq"
+Info (12128): Elaborating entity "tile_core_wrapper" for hierarchy "tile_core_wrapper:nodes[0].core0_inst"
+Info (12128): Elaborating entity "RV32I" for hierarchy "tile_core_wrapper:nodes[0].core0_inst|RV32I:core_inst"
+Info (12128): Elaborating entity "Load_Store_Unit" for hierarchy "tile_core_wrapper:nodes[0].core0_inst|RV32I:core_inst|Load_Store_Unit:lsu_inst"
+Info (12128): Elaborating entity "PC" for hierarchy "tile_core_wrapper:nodes[0].core0_inst|RV32I:core_inst|PC:pc_inst"
+Info (12128): Elaborating entity "instruction_Mem" for hierarchy "tile_core_wrapper:nodes[0].core0_inst|RV32I:core_inst|instruction_Mem:imem_inst"
+Error (10054): Verilog HDL File I/O error at instruction_Mem.v(21): can't open Verilog Design File "E:/Documents/DA1/code_noc/Quartus_proj/prog_core0.txt" File: C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/instruction_Mem.v Line: 21
+Error (12152): Can't elaborate user hierarchy "tile_core_wrapper:nodes[0].core0_inst|RV32I:core_inst|instruction_Mem:imem_inst" File: C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/RV32I.v Line: 81
+Info (144001): Generated suppressed messages file C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/output_files/noc_proj.map.smsg
+Error: Quartus II 64-Bit Analysis & Synthesis was unsuccessful. 2 errors, 54 warnings
+    Error: Peak virtual memory: 4860 megabytes
+    Error: Processing ended: Fri Jun 12 21:33:41 2026
+    Error: Elapsed time: 00:00:33
+    Error: Total CPU time (on all processors): 00:00:33
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/ASUS/Desktop/code_da1_comp/code_da1_comp/Quartus_proj/output_files/noc_proj.map.smsg.
+
+

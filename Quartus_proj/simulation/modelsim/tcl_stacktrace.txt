@@ -1,0 +1,14 @@
+Wed Jan 14 4:20:20 PM SE Asia Standard Time 2026
+Trace back: invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree2"
+    while executing
+".main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree2 update"
+    ("after" script)
+  <2: ::tkerror {invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree2"}
+  <1: ::bgerror {invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree2"}
+Wed Jan 14 4:20:50 PM SE Asia Standard Time 2026
+Trace back: invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid.cursor,wave.data"
+    while executing
+".main_pane.dataflow.interior.cs.body.pw.wf.top.grid.cursor,wave.data zoomrange {827814 ps} {1150835 ps}"
+    ("after" script)
+  <2: ::tkerror {invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid.cursor,wave.data"}
+  <1: ::bgerror {invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid.cursor,wave.data"}

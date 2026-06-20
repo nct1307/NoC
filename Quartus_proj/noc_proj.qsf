@@ -1,0 +1,196 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 17:18:08  January 01, 2026
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		noc_proj_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV GX"
+set_global_assignment -name DEVICE EP4CGX150DF27I7AF
+set_global_assignment -name TOP_LEVEL_ENTITY noc_system
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:18:08  JANUARY 01, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name VERILOG_FILE ../src_router/whr_top.v
+set_global_assignment -name VERILOG_FILE ../src_router/whr_op_ctrl_mac.v
+set_global_assignment -name VERILOG_FILE ../src_router/whr_ip_ctrl_mac.v
+set_global_assignment -name VERILOG_FILE ../src_router/whr_constants.v
+set_global_assignment -name VERILOG_FILE ../src_router/whr_alloc_mac.v
+set_global_assignment -name VERILOG_FILE ../src_router/vcr_vc_alloc_wf.v
+set_global_assignment -name VERILOG_FILE ../src_router/vcr_vc_alloc_sep_of.v
+set_global_assignment -name VERILOG_FILE ../src_router/vcr_vc_alloc_sep_if.v
+set_global_assignment -name VERILOG_FILE ../src_router/vcr_top.v
+set_global_assignment -name VERILOG_FILE ../src_router/vcr_sw_alloc_wf.v
+set_global_assignment -name VERILOG_FILE ../src_router/vcr_sw_alloc_sep_of.v
+set_global_assignment -name VERILOG_FILE ../src_router/vcr_sw_alloc_sep_if.v
+set_global_assignment -name VERILOG_FILE ../src_router/vcr_ovc_ctrl.v
+set_global_assignment -name VERILOG_FILE ../src_router/vcr_op_ctrl_mac.v
+set_global_assignment -name VERILOG_FILE ../src_router/vcr_ivc_ctrl.v
+set_global_assignment -name VERILOG_FILE ../src_router/vcr_ip_ctrl_mac.v
+set_global_assignment -name VERILOG_FILE ../src_router/vcr_constants.v
+set_global_assignment -name VERILOG_FILE ../src_router/vcr_alloc_mac.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_top.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_routing_logic.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_route_filter.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_op_ctrl_mac.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_next_hop_addr.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_ip_ctrl_mac.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_flow_ctrl_output.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_flow_ctrl_input.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_flit_type_check.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_flit_buffer.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_flags_mux.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_fc_state.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_crossbar_mac.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_constants.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_channel_output.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_channel_input.v
+set_global_assignment -name VERILOG_FILE ../src_router/rtr_alloc_mac.v
+set_global_assignment -name VERILOG_FILE ../src_router/router_wrap.v
+set_global_assignment -name VERILOG_FILE ../src_router/parameters.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_wf_alloc_sdpa.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_wf_alloc_rot.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_wf_alloc_rep.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_wf_alloc_mux.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_wf_alloc_loop.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_wf_alloc_dpa.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_wf_alloc.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_shift_reg.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_select_mofn.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_select_1ofn.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_scatter.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_samq_tracker.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_samq_ctrl.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_rr_arbiter_base.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_rr_arbiter.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_rotate.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_reverse.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_regfile.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_reduce_bits.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_prio_sel.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_prio_enc.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_prefix_net.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_prefix_arbiter_base.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_prefix_arbiter.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_one_hot_therm_conv.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_one_hot_filter.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_multi_hot_det.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_matrix_arbiter.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_mat_mult.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_lod.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_lfsr.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_interleave.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_incr.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_gather.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_gate_bits.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_functions.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_fifo_tracker.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_fifo_ctrl.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_fifo.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_fbmult.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_fbgen.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_err_rpt.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_encode.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_diag_op.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_dff.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_decr.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_decode.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_damq_tracker.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_damq_ctrl.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_crossbar.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_constants.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_clkgate.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_binary_op.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_arbiter.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_align.v
+set_global_assignment -name VERILOG_FILE ../src_router/c_add_nto1.v
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VERILOG_FILE Control_Unit.v
+set_global_assignment -name VERILOG_FILE Load_Store_Unit.v
+set_global_assignment -name VERILOG_FILE PC.v
+set_global_assignment -name VERILOG_FILE instruction_Mem.v
+set_global_assignment -name VERILOG_FILE rf_32_32.v
+set_global_assignment -name VERILOG_FILE alu.v
+set_global_assignment -name VERILOG_FILE Sign_Extend.v
+set_global_assignment -name VERILOG_FILE RV32I.v
+set_global_assignment -name VERILOG_FILE Wishbone_Core_Adapter.v
+set_global_assignment -name VERILOG_FILE tile_core_wrapper.v
+set_global_assignment -name VERILOG_FILE ni_core.v
+set_global_assignment -name VERILOG_FILE tile_ram_wrapper.v
+set_global_assignment -name VERILOG_FILE wb_ram_top.v
+set_global_assignment -name VERILOG_FILE ram_slave_interface.v
+set_global_assignment -name VERILOG_FILE ram.v
+set_global_assignment -name VERILOG_FILE noc_system.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name VERILOG_INPUT_VERSION SYSTEMVERILOG_2005
+set_global_assignment -name VERILOG_SHOW_LMF_MAPPING_MESSAGES OFF
+set_global_assignment -name VERILOG_FILE tb_noc_system.v
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tb_noc_system -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_noc_system -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_noc_system
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_noc_system -section_id tb_noc_system
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_noc_system.v -section_id tb_noc_system
+set_global_assignment -name VERILOG_FILE timer.v
+set_global_assignment -name VERILOG_FILE wishbone_slave_adapter_timer.v
+set_global_assignment -name VERILOG_FILE wb_timer_top.v
+set_global_assignment -name VERILOG_FILE ni_ip.v
+set_global_assignment -name VERILOG_FILE tile_timer_wrapper.v
+set_global_assignment -name VERILOG_FILE led_matrix.v
+set_global_assignment -name VERILOG_FILE wishbone_slave_adapter_led_matrix.v
+set_global_assignment -name VERILOG_FILE wb_led_matrix_top.v
+set_global_assignment -name VERILOG_FILE tile_led_matrix_wrapper.v
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 100
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 672
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
+set_global_assignment -name VERILOG_FILE gpio_basic.v
+set_global_assignment -name VERILOG_FILE wishbone_gpio.v
+set_global_assignment -name VERILOG_FILE tile_gpio_wrapper.v
+set_global_assignment -name VERILOG_FILE uart_receiver.v
+set_global_assignment -name VERILOG_FILE uart_transmitter.v
+set_global_assignment -name VERILOG_FILE uart.v
+set_global_assignment -name VERILOG_FILE wb_uart_top.v
+set_global_assignment -name VERILOG_FILE wishbone_slave_adapter_uart.v
+set_global_assignment -name VERILOG_FILE tile_uart_wrapper.v
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"

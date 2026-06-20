@@ -1,0 +1,12 @@
+PowerPlay Power Analyzer Status : Successful - Tue Jan 06 11:23:13 2026
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : noc_proj
+Top-level Entity Name : noc_system
+Family : Cyclone IV GX
+Device : EP4CGX150DF27I7AF
+Power Models : Final
+Total Thermal Power Dissipation : 164.63 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 120.45 mW
+I/O Thermal Power Dissipation : 44.18 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

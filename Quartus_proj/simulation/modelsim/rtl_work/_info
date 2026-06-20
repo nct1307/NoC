@@ -1,0 +1,1960 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Documents\DA1\code_noc\Quartus_proj\simulation\modelsim
+valu
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+I__<IAFzdka1FBcbgScCbE2
+VjY_4G56dKmM9E3W=5@6VJ0
+S1
+Z2 dE:\Documents\DA1\code_noc\Quartus_proj\simulation\modelsim
+w1767263502
+8E:/Documents/DA1/code_noc/Quartus_proj/alu.v
+FE:/Documents/DA1/code_noc/Quartus_proj/alu.v
+L0 1
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-sv -work work -O0
+Z5 !s92 -sv -work work +incdir+E:/Documents/DA1/code_noc/Quartus_proj -O0
+!i10b 1
+!s100 _K1z[`M2jb`fPdJ5ABAMN2
+!s105 alu_v_unit
+!s85 0
+!s108 1773383106.671000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/alu.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/alu.v|
+!s101 -O0
+vc_align
+R1
+I7KVJ?6^if@P`6TO^Xgi_72
+VK=nA]NkFcC<eP><Z<FP@83
+S1
+R2
+Z6 w1346286691
+8E:/Documents/DA1/code_noc/src_router/c_align.v
+FE:/Documents/DA1/code_noc/src_router/c_align.v
+L0 32
+R3
+r1
+31
+R4
+Z7 !s92 -sv -work work +incdir+E:/Documents/DA1/code_noc/src_router -O0
+!i10b 1
+!s100 37Q;4D:Fa>1K?WM3:P7>J3
+!s105 c_align_v_unit
+!s85 0
+!s108 1773383106.369000
+!s107 E:/Documents/DA1/code_noc/src_router/c_align.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_align.v|
+!s101 -O0
+vc_arbiter
+R1
+I[87Xo5AQ_a`zj;G:8g6Z:0
+VgVM7`;A^1h52]EmIbCaRS2
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_arbiter.v
+FE:/Documents/DA1/code_noc/src_router/c_arbiter.v
+Z8 FE:/Documents/DA1/code_noc/src_router/c_functions.v
+Z9 FE:/Documents/DA1/code_noc/src_router/c_constants.v
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 ll@gU0<2BKkLb>aN]C;4Z1
+!s105 c_arbiter_v_unit
+!s85 0
+!s108 1773383110.645000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/c_arbiter.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_arbiter.v|
+!s101 -O0
+vc_binary_op
+R1
+IDfl6RGAbgCLKg8b=cHnL00
+VQUSo9Km2@UK60F^zaY=^V2
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_binary_op.v
+FE:/Documents/DA1/code_noc/src_router/c_binary_op.v
+R9
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 EG^`j@4V2Y1iFCklE;?@40
+!s105 c_binary_op_v_unit
+!s85 0
+!s108 1773383110.585000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_binary_op.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_binary_op.v|
+!s101 -O0
+vc_crossbar
+R1
+ITI;Q^MFb_oMWQ]L0F];]K2
+VBhWF]PWZGmD848G8lYF][1
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_crossbar.v
+FE:/Documents/DA1/code_noc/src_router/c_crossbar.v
+R9
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 WE35=8^Ki1K3_VPhPUOLn3
+!s105 c_crossbar_v_unit
+!s85 0
+!s108 1773383110.514000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_crossbar.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_crossbar.v|
+!s101 -O0
+vc_decode
+R1
+IPiQN]E<jYNMIVc:P[hb`l0
+V3[^hSJW7X3ehdnT^3zKn51
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_decode.v
+FE:/Documents/DA1/code_noc/src_router/c_decode.v
+R8
+L0 34
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 S@m@:Qk3EZLcT4zWh=K^R1
+!s105 c_decode_v_unit
+!s85 0
+!s108 1773383110.404000
+!s107 E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/c_decode.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_decode.v|
+!s101 -O0
+vc_decr
+R1
+I`;EnJYFg78<ZCbOfLiD7a1
+VIZ50`Pk^bM?KgM^PJDDcm2
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_decr.v
+FE:/Documents/DA1/code_noc/src_router/c_decr.v
+R8
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 >TM8k@<jFMVIZC]jk1;2`3
+!s105 c_decr_v_unit
+!s85 0
+!s108 1773383110.357000
+!s107 E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/c_decr.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_decr.v|
+!s101 -O0
+vc_dff
+R1
+In7cLi90QXfgf6jLnB9z2f1
+VTbJ_50:ZLgTNZ>AXSmTKE3
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_dff.v
+FE:/Documents/DA1/code_noc/src_router/c_dff.v
+R9
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 _2Ij;Ne`>Z_RAgBDK5<XM1
+!s105 c_dff_v_unit
+!s85 0
+!s108 1773383110.293000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_dff.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_dff.v|
+!s101 -O0
+vc_encode
+R1
+Io?Z5@b:@hCO4T^;U@ZTeQ1
+V5gk[FMH;YmoUNl^f9n_aB2
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_encode.v
+FE:/Documents/DA1/code_noc/src_router/c_encode.v
+R8
+L0 34
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 _YlZUDK[L^eeD>5lPz12J0
+!s105 c_encode_v_unit
+!s85 0
+!s108 1773383110.199000
+!s107 E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/c_encode.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_encode.v|
+!s101 -O0
+vc_err_rpt
+R1
+Iao7bXckfDkcTjXIeM@YaJ3
+V1Zc_1Tn<SWgT<Ta=ol=j:3
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_err_rpt.v
+FE:/Documents/DA1/code_noc/src_router/c_err_rpt.v
+R9
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 BB@aiiz?=4XCWl:RbI:MG0
+!s105 c_err_rpt_v_unit
+!s85 0
+!s108 1773383110.149000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_err_rpt.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_err_rpt.v|
+!s101 -O0
+vc_fifo_ctrl
+R1
+I=OC43n6RUV97mhQV>gEeF0
+Vi5`2LJo:`6UBLL@EgaJ9e3
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_fifo_ctrl.v
+FE:/Documents/DA1/code_noc/src_router/c_fifo_ctrl.v
+R8
+R9
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 <gJ3kDhoAgW4@_WB3n5fJ1
+!s105 c_fifo_ctrl_v_unit
+!s85 0
+!s108 1773383110.090000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/c_fifo_ctrl.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_fifo_ctrl.v|
+!s101 -O0
+vc_fifo_tracker
+R1
+Ih3B?BmJzPj@FEjnKe5Cdh2
+VSnD9c[aF1jVJ^]a;IIU4a3
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_fifo_tracker.v
+FE:/Documents/DA1/code_noc/src_router/c_fifo_tracker.v
+R8
+R9
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 9=>;NAP<>@MA?3:S?2LJM0
+!s105 c_fifo_tracker_v_unit
+!s85 0
+!s108 1773383110.025000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/c_fifo_tracker.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_fifo_tracker.v|
+!s101 -O0
+Xc_functions_v_unit
+R1
+I8HH8Ef0g]f87WY8Il7dKR1
+V8HH8Ef0g]f87WY8Il7dKR1
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_functions.v
+R8
+L0 33
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 Ej5VTU`IBG6IDekR=96H`3
+!i103 1
+!s85 0
+!s108 1773383106.284000
+!s107 E:/Documents/DA1/code_noc/src_router/c_functions.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_functions.v|
+!s101 -O0
+vc_incr
+R1
+IUoHg_a4B06RfiG1kDbSW@1
+VCHV0jC7S9Jic[CZb9k=z93
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_incr.v
+FE:/Documents/DA1/code_noc/src_router/c_incr.v
+R8
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 f]gJF9PVzGb3Y8EPTfaIc0
+!s105 c_incr_v_unit
+!s85 0
+!s108 1773383109.962000
+!s107 E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/c_incr.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_incr.v|
+!s101 -O0
+vc_interleave
+R1
+I<AVa1<haOk^VI1MbPV66X3
+VKBU1S_kjd`FHFX74^_9jQ0
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_interleave.v
+FE:/Documents/DA1/code_noc/src_router/c_interleave.v
+L0 33
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 =je`]MKGlW4:`TlelP@8e0
+!s105 c_interleave_v_unit
+!s85 0
+!s108 1773383106.227000
+!s107 E:/Documents/DA1/code_noc/src_router/c_interleave.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_interleave.v|
+!s101 -O0
+vc_lod
+R1
+I>cn5QT3gha?1Okd^<NVlN0
+Vmi1CTJe[kTZaXM@_R?[f:0
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_lod.v
+FE:/Documents/DA1/code_noc/src_router/c_lod.v
+R8
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 =MG^0=DboCT161RTVKf;Y3
+!s105 c_lod_v_unit
+!s85 0
+!s108 1773383109.915000
+!s107 E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/c_lod.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_lod.v|
+!s101 -O0
+vc_multi_hot_det
+R1
+IhZTjSB9hC]:UjMmYhmCf32
+VTV]W?0oela`z[3c>XIjno1
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_multi_hot_det.v
+FE:/Documents/DA1/code_noc/src_router/c_multi_hot_det.v
+R9
+R8
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 [nhkO=li7=:H:W4gd?Vl02
+!s105 c_multi_hot_det_v_unit
+!s85 0
+!s108 1773383109.851000
+!s107 E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_multi_hot_det.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_multi_hot_det.v|
+!s101 -O0
+vc_reduce_bits
+R1
+IkVDJaQ3NgEAYj6hI<U?743
+VcScolY?5MXWEBCWXIMdWD3
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_reduce_bits.v
+FE:/Documents/DA1/code_noc/src_router/c_reduce_bits.v
+R9
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 ^dlfYE<Y_gN]6ZBYjTe1E3
+!s105 c_reduce_bits_v_unit
+!s85 0
+!s108 1773383109.804000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_reduce_bits.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_reduce_bits.v|
+!s101 -O0
+vc_regfile
+R1
+I]4]kBPS=ZZE;b;cm0Q8P42
+VdKdKWWFXSRjO:dE9UN8]f1
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_regfile.v
+FE:/Documents/DA1/code_noc/src_router/c_regfile.v
+R8
+R9
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 NmB_;U_Z;HGQ8R0SiMc4d1
+!s105 c_regfile_v_unit
+!s85 0
+!s108 1773383109.745000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/c_regfile.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_regfile.v|
+!s101 -O0
+vc_rr_arbiter
+R1
+I3f7R`B<E_k`PnZUAheHB@2
+Vk[=ZY=28=Il9NA0FXSEDd2
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_rr_arbiter.v
+FE:/Documents/DA1/code_noc/src_router/c_rr_arbiter.v
+R9
+R8
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 04z3ihm=FXcE9j8nWQD972
+!s105 c_rr_arbiter_v_unit
+!s85 0
+!s108 1773383109.677000
+!s107 E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_rr_arbiter.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_rr_arbiter.v|
+!s101 -O0
+vc_rr_arbiter_base
+R1
+I;Cm<MDE7S2lTUWm5D0cXK3
+VnP4JMM=EVn_c2?ToVlVa03
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_rr_arbiter_base.v
+FE:/Documents/DA1/code_noc/src_router/c_rr_arbiter_base.v
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 M:5U:nIZiFoGIUR=zD=3l3
+!s105 c_rr_arbiter_base_v_unit
+!s85 0
+!s108 1773383106.154000
+!s107 E:/Documents/DA1/code_noc/src_router/c_rr_arbiter_base.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_rr_arbiter_base.v|
+!s101 -O0
+vc_samq_ctrl
+R1
+IOTmkGb3lCb3RPFFD=f__Z3
+Vh2ROURA>MbbS0U7`5ngZ00
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_samq_ctrl.v
+FE:/Documents/DA1/code_noc/src_router/c_samq_ctrl.v
+R8
+R9
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 Zn<_GLVnd]PEB=iC_gkg@1
+!s105 c_samq_ctrl_v_unit
+!s85 0
+!s108 1773383109.631000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/c_samq_ctrl.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_samq_ctrl.v|
+!s101 -O0
+vc_samq_tracker
+R1
+I2L?_?;Idm?51:Mo9eMN>Q3
+VYN^e]2ReL1@z]E6[e5ok71
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_samq_tracker.v
+FE:/Documents/DA1/code_noc/src_router/c_samq_tracker.v
+R8
+R9
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 =0ZY=WW7;3Y5LaF<YaR<d1
+!s105 c_samq_tracker_v_unit
+!s85 0
+!s108 1773383109.566000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/c_samq_tracker.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_samq_tracker.v|
+!s101 -O0
+vc_select_1ofn
+R1
+In>13mO=GOh=a_O^X7]Sgh1
+V17l`B6_R`I<;gV^ITgY4U3
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_select_1ofn.v
+FE:/Documents/DA1/code_noc/src_router/c_select_1ofn.v
+R9
+L0 34
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 i1M]l=BQCZJ6jJ2TPYEo:0
+!s105 c_select_1ofn_v_unit
+!s85 0
+!s108 1773383109.424000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_select_1ofn.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_select_1ofn.v|
+!s101 -O0
+vc_select_mofn
+R1
+IUL;hNDj5I8NmRGL8kY<kQ3
+V[j7B=YDRd9d1aQbM<=5?90
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/c_select_mofn.v
+FE:/Documents/DA1/code_noc/src_router/c_select_mofn.v
+R9
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 [77FkFL:28GIh8eB]8CE[1
+!s105 c_select_mofn_v_unit
+!s85 0
+!s108 1773383109.376000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_select_mofn.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/c_select_mofn.v|
+!s101 -O0
+vControl_Unit
+R1
+IFcYPPS25JTNoD6]6geX[C3
+V2<_:>DdQlb;]bHhfck^4I3
+S1
+R2
+w1767263099
+8E:/Documents/DA1/code_noc/Quartus_proj/Control_Unit.v
+FE:/Documents/DA1/code_noc/Quartus_proj/Control_Unit.v
+L0 1
+R3
+r1
+31
+R4
+n@control_@unit
+R5
+!i10b 1
+!s100 zSV]e<FQ6b]m>fRSLiFJo0
+!s105 Control_Unit_v_unit
+!s85 0
+!s108 1773383106.417000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/Control_Unit.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/Control_Unit.v|
+!s101 -O0
+vgpio_basic
+R1
+IkEjj6JAzde[`9ASCCEd1C1
+VeJUFd30TAY6DH6;^44lE72
+S1
+R2
+w1767622510
+8E:/Documents/DA1/code_noc/Quartus_proj/gpio_basic.v
+FE:/Documents/DA1/code_noc/Quartus_proj/gpio_basic.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 KnIAdU6De]BBK`df2>oI21
+!s105 gpio_basic_v_unit
+!s85 0
+!s108 1773383107.698000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/gpio_basic.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/gpio_basic.v|
+!s101 -O0
+vinstruction_Mem
+R1
+IgeV=7e0j`K?CnXjHjCz1P1
+V9NnWY3XgXm<ERMdh0jYRA2
+S1
+R2
+w1767621075
+8E:/Documents/DA1/code_noc/Quartus_proj/instruction_Mem.v
+FE:/Documents/DA1/code_noc/Quartus_proj/instruction_Mem.v
+L0 1
+R3
+r1
+31
+R4
+R5
+ninstruction_@mem
+!i10b 1
+!s100 BX^005z<GI^IAk6NkQ8UY0
+!s105 instruction_Mem_v_unit
+!s85 0
+!s108 1773383106.574000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/instruction_Mem.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/instruction_Mem.v|
+!s101 -O0
+vled_matrix
+R1
+I<9>cBU5:Hz4`kPT94O9CZ0
+VfSk;lKn7m?z=ImDaFMFiQ0
+S1
+R2
+w1767586567
+8E:/Documents/DA1/code_noc/Quartus_proj/led_matrix.v
+FE:/Documents/DA1/code_noc/Quartus_proj/led_matrix.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 aYjB3H5gl]1n04FJ2DdIh2
+!s105 led_matrix_v_unit
+!s85 0
+!s108 1773383107.491000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/led_matrix.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/led_matrix.v|
+!s101 -O0
+vLoad_Store_Unit
+R1
+IgTbG6h[:hT@@N5AdA4>Pm3
+VnbPgjbzZJ^bBCW05gdnU<0
+S1
+R2
+w1767263125
+8E:/Documents/DA1/code_noc/Quartus_proj/Load_Store_Unit.v
+FE:/Documents/DA1/code_noc/Quartus_proj/Load_Store_Unit.v
+L0 2
+R3
+r1
+31
+R4
+R5
+n@load_@store_@unit
+!i10b 1
+!s100 IoRFN[7L8dPaOV?`?:3@70
+!s105 Load_Store_Unit_v_unit
+!s85 0
+!s108 1773383106.465000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/Load_Store_Unit.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/Load_Store_Unit.v|
+!s101 -O0
+vni_core
+R1
+I33B05k?nblLE7gzG>3LPc1
+VGSi?6d88F_zHgXF_d8k]S3
+S1
+R2
+w1767941111
+8E:/Documents/DA1/code_noc/Quartus_proj/ni_core.v
+FE:/Documents/DA1/code_noc/Quartus_proj/ni_core.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 cS^3k0mGjLDFb8f8FK:Y11
+!s105 ni_core_v_unit
+!s85 0
+!s108 1773383106.925000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/ni_core.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/ni_core.v|
+!s101 -O0
+vni_ip
+R1
+I3BFz[Z<>`aZkEGNQ?8V`c2
+VzIfJ@@g]`BCe42DZ`gFXI0
+S1
+R2
+w1767941118
+8E:/Documents/DA1/code_noc/Quartus_proj/ni_ip.v
+FE:/Documents/DA1/code_noc/Quartus_proj/ni_ip.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 MlI3QBQgmzdCPYInNGNHV0
+!s105 ni_ip_v_unit
+!s85 0
+!s108 1773383107.380000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/ni_ip.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/ni_ip.v|
+!s101 -O0
+vnoc_system
+R1
+IC0io69N:n>zMm`_A4k27f3
+V9G;UE3o<d<JL[l19EdS6o3
+S1
+R2
+Z10 w1767941103
+8E:/Documents/DA1/code_noc/Quartus_proj/noc_system.v
+FE:/Documents/DA1/code_noc/Quartus_proj/noc_system.v
+R8
+R9
+Z11 FE:/Documents/DA1/code_noc/src_router/rtr_constants.v
+Z12 FE:/Documents/DA1/code_noc/src_router/vcr_constants.v
+Z13 FE:/Documents/DA1/code_noc/src_router/parameters.v
+R9
+R11
+R12
+L0 4
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 K378z7EA]6Ad43:DB7z`j2
+!s105 noc_system_v_unit
+!s85 0
+!s108 1773383110.768000
+!s107 E:/Documents/DA1/code_noc/src_router/parameters.v|E:/Documents/DA1/code_noc/src_router/vcr_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/Quartus_proj/noc_system.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/noc_system.v|
+!s101 -O0
+Xparameters_v_unit
+R1
+I8T?ii[6T_@Ldfmn6hOUP00
+V8T?ii[6T_@Ldfmn6hOUP00
+S1
+R2
+R10
+8E:/Documents/DA1/code_noc/src_router/parameters.v
+R13
+R9
+R11
+R12
+L0 36
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 >0X?_@BzFlFbmmH]@i7gJ2
+!i103 1
+!s85 0
+!s108 1773383109.313000
+!s107 E:/Documents/DA1/code_noc/src_router/vcr_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/parameters.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/parameters.v|
+!s101 -O0
+vPC
+R1
+IHBSf[V[b2gWL2HQ59<LlE0
+Va=1N^HjbRWB9mF<JgGnLd3
+S1
+R2
+w1767618405
+8E:/Documents/DA1/code_noc/Quartus_proj/PC.v
+FE:/Documents/DA1/code_noc/Quartus_proj/PC.v
+L0 1
+R3
+r1
+31
+R4
+R5
+n@p@c
+!i10b 1
+!s100 Z]Fa?K]VFfT2HBo7NKjH60
+!s105 PC_v_unit
+!s85 0
+!s108 1773383106.512000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/PC.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/PC.v|
+!s101 -O0
+vram
+R1
+IQh0Z5DkNSf_fGz@Q]M[Y81
+VC6RXPKZ5?jHLP1<9IeEbI3
+S1
+R2
+w1767618641
+8E:/Documents/DA1/code_noc/Quartus_proj/ram.v
+FE:/Documents/DA1/code_noc/Quartus_proj/ram.v
+L0 3
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 O1:IJKB]@X5Ai1[Wkl>Z_2
+!s105 ram_v_unit
+!s85 0
+!s108 1773383107.146000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/ram.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/ram.v|
+!s101 -O0
+vram_slave_interface
+R1
+I@Tj16T=H@BmcKQ1dBX][U2
+VSkU4cTb;Bz1zb=8LV_?jB2
+S1
+R2
+w1767520501
+8E:/Documents/DA1/code_noc/Quartus_proj/ram_slave_interface.v
+FE:/Documents/DA1/code_noc/Quartus_proj/ram_slave_interface.v
+L0 43
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 >Gal`VgLz8Qin:96C]5ai3
+!s105 ram_slave_interface_v_unit
+!s85 0
+!s108 1773383107.099000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/ram_slave_interface.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/ram_slave_interface.v|
+!s101 -O0
+vrf_32_32
+R1
+I5iDm<2VNZ_FSD:nJoFjRm0
+VG[1JlA:n1B@=^<CSQoSUT0
+S1
+R2
+w1767618574
+8E:/Documents/DA1/code_noc/Quartus_proj/rf_32_32.v
+FE:/Documents/DA1/code_noc/Quartus_proj/rf_32_32.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 O4m@o8m7z1]Nk[]HFmRMc0
+!s105 rf_32_32_v_unit
+!s85 0
+!s108 1773383106.624000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/rf_32_32.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/rf_32_32.v|
+!s101 -O0
+vrouter_wrap
+R1
+IBlOFLgY=[^V0;b^>4zW3g3
+VV@1ndSFJ1Z159V34;il2g0
+S1
+R2
+R10
+8E:/Documents/DA1/code_noc/src_router/router_wrap.v
+FE:/Documents/DA1/code_noc/src_router/router_wrap.v
+R8
+R9
+R11
+R12
+R13
+R9
+R11
+R12
+L0 33
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 =kN3o6iJP;SMMN^W0`zn:1
+!s105 router_wrap_v_unit
+!s85 0
+!s108 1773383110.704000
+!s107 E:/Documents/DA1/code_noc/src_router/parameters.v|E:/Documents/DA1/code_noc/src_router/vcr_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/router_wrap.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/router_wrap.v|
+!s101 -O0
+vrtr_channel_input
+R1
+ICmYU@a`kJg=5^Y4^CLNM[1
+VMUXHV94mM:E9nb6?8Xm@i0
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/rtr_channel_input.v
+FE:/Documents/DA1/code_noc/src_router/rtr_channel_input.v
+R8
+R9
+R11
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 :Zz]I5[_;dma5_TZ186C70
+!s105 rtr_channel_input_v_unit
+!s85 0
+!s108 1773383109.250000
+!s107 E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/rtr_channel_input.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/rtr_channel_input.v|
+!s101 -O0
+vrtr_channel_output
+R1
+INEWcOHd:GoQdU3II>nlPI0
+VnkzCo=M`HX[3UMXAjzgHY3
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/rtr_channel_output.v
+FE:/Documents/DA1/code_noc/src_router/rtr_channel_output.v
+R8
+R9
+R11
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 Kj^<4:hJO=Y5k;NP4;^Q90
+!s105 rtr_channel_output_v_unit
+!s85 0
+!s108 1773383109.202000
+!s107 E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/rtr_channel_output.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/rtr_channel_output.v|
+!s101 -O0
+vrtr_crossbar_mac
+R1
+Ib5:g69;34hK6<@m][fOUZ1
+V<a?DX76k^N2Fn@>98<f1f0
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/rtr_crossbar_mac.v
+FE:/Documents/DA1/code_noc/src_router/rtr_crossbar_mac.v
+R9
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 Q=WCf@`a7QWC4cm3Xdeb=3
+!s105 rtr_crossbar_mac_v_unit
+!s85 0
+!s108 1773383109.139000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_crossbar_mac.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/rtr_crossbar_mac.v|
+!s101 -O0
+vrtr_fc_state
+R1
+ID8ANl5?J<R49^=D^`J7z<0
+VzRoii@[4PZmzE>JlLIDmI2
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/rtr_fc_state.v
+FE:/Documents/DA1/code_noc/src_router/rtr_fc_state.v
+R8
+R9
+R11
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 =bg@^m[;gP`>Z<Z34obzA1
+!s105 rtr_fc_state_v_unit
+!s85 0
+!s108 1773383109.091000
+!s107 E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/rtr_fc_state.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/rtr_fc_state.v|
+!s101 -O0
+vrtr_flit_buffer
+R1
+IGJTZNJo_lfoECeV;TCdf41
+V;2=F;;6V5G0nWfR^1>imB2
+S1
+R2
+w1767279185
+8E:/Documents/DA1/code_noc/src_router/rtr_flit_buffer.v
+FE:/Documents/DA1/code_noc/src_router/rtr_flit_buffer.v
+R8
+R9
+R11
+R12
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 7HXg?bRBP@H6nR^[T1<>Q2
+!s105 rtr_flit_buffer_v_unit
+!s85 0
+!s108 1773383109.027000
+!s107 E:/Documents/DA1/code_noc/src_router/vcr_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/rtr_flit_buffer.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/rtr_flit_buffer.v|
+!s101 -O0
+vrtr_flit_type_check
+R1
+IKoC_kjV4>JgaS=zzY2f^T1
+Vg5`H8mh5S?;12Kgg8nWcK1
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/rtr_flit_type_check.v
+FE:/Documents/DA1/code_noc/src_router/rtr_flit_type_check.v
+R9
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 :WW9g_hhEIk0JXbm3i@km1
+!s105 rtr_flit_type_check_v_unit
+!s85 0
+!s108 1773383108.964000
+!s107 E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_flit_type_check.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/rtr_flit_type_check.v|
+!s101 -O0
+vrtr_flow_ctrl_input
+R1
+I4EQH_`<TR<cV:AbVATaVV3
+V9@FzPjNL488gRjmRJ4`FO2
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/rtr_flow_ctrl_input.v
+FE:/Documents/DA1/code_noc/src_router/rtr_flow_ctrl_input.v
+R8
+R9
+R11
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 Re]jP448SCmNPaU9nN6hl2
+!s105 rtr_flow_ctrl_input_v_unit
+!s85 0
+!s108 1773383108.916000
+!s107 E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/rtr_flow_ctrl_input.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/rtr_flow_ctrl_input.v|
+!s101 -O0
+vrtr_flow_ctrl_output
+R1
+IV9T@552jFAOU7jFZf@W_@3
+VkiKJM^Z1fDJXZd5Z=i3he1
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/rtr_flow_ctrl_output.v
+FE:/Documents/DA1/code_noc/src_router/rtr_flow_ctrl_output.v
+R8
+R9
+R11
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 9U2;0LFGJbU5EWAk]^kML0
+!s105 rtr_flow_ctrl_output_v_unit
+!s85 0
+!s108 1773383108.853000
+!s107 E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/rtr_flow_ctrl_output.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/rtr_flow_ctrl_output.v|
+!s101 -O0
+vrtr_next_hop_addr
+R1
+I:gOfngXFCToeIWdCFPc@`3
+VA=M0[9MHA6Wd5oQWJQHm_0
+S1
+R2
+w1767279156
+8E:/Documents/DA1/code_noc/src_router/rtr_next_hop_addr.v
+FE:/Documents/DA1/code_noc/src_router/rtr_next_hop_addr.v
+R8
+R9
+R11
+R12
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 lcWY:lYDUlRRC4U<SS?500
+!s105 rtr_next_hop_addr_v_unit
+!s85 0
+!s108 1773383108.790000
+!s107 E:/Documents/DA1/code_noc/src_router/vcr_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/rtr_next_hop_addr.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/rtr_next_hop_addr.v|
+!s101 -O0
+vrtr_route_filter
+R1
+Ii@7DST8@TA<zL]AoBG0PN3
+Vo=:Wm4z>OaaO]>R^2chAb3
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/rtr_route_filter.v
+FE:/Documents/DA1/code_noc/src_router/rtr_route_filter.v
+R9
+R11
+L0 33
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 mO@kNJF>K3[`DK3]7HOco2
+!s105 rtr_route_filter_v_unit
+!s85 0
+!s108 1773383108.741000
+!s107 E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_route_filter.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/rtr_route_filter.v|
+!s101 -O0
+vrtr_routing_logic
+R1
+IK4:j`gD9Gd<mTPMOzIJY12
+Vj9aO=XSc>b18JhDV6FYI[1
+S1
+R2
+w1767279112
+8E:/Documents/DA1/code_noc/src_router/rtr_routing_logic.v
+FE:/Documents/DA1/code_noc/src_router/rtr_routing_logic.v
+R8
+R9
+R11
+R12
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 V9X6Wb8z^4J04PoZ>F_B<2
+!s105 rtr_routing_logic_v_unit
+!s85 0
+!s108 1773383108.678000
+!s107 E:/Documents/DA1/code_noc/src_router/vcr_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/rtr_routing_logic.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/rtr_routing_logic.v|
+!s101 -O0
+vRV32I
+R1
+I9LhBSGSN[e[`MhIdJZSL43
+VKzzUSSS4QBjE9=@bg88YZ3
+S1
+R2
+w1767620183
+8E:/Documents/DA1/code_noc/Quartus_proj/RV32I.v
+FE:/Documents/DA1/code_noc/Quartus_proj/RV32I.v
+L0 6
+R3
+r1
+31
+R4
+R5
+n@r@v32@i
+!i10b 1
+!s100 ;Y<EJ2]79ZST7lWEKEbn[0
+!s105 RV32I_v_unit
+!s85 0
+!s108 1773383106.767000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/RV32I.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/RV32I.v|
+!s101 -O0
+vSign_Extend
+R1
+Ihe6N>m1Ia;`DCz=4B[6;[1
+V07Yf;H@SchBeB0SagVl]43
+S1
+R2
+w1767263554
+8E:/Documents/DA1/code_noc/Quartus_proj/Sign_Extend.v
+FE:/Documents/DA1/code_noc/Quartus_proj/Sign_Extend.v
+L0 1
+R3
+r1
+31
+R4
+R5
+n@sign_@extend
+!i10b 1
+!s100 HAE63`6JMALnU@Pc=QDUR3
+!s105 Sign_Extend_v_unit
+!s85 0
+!s108 1773383106.719000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/Sign_Extend.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/Sign_Extend.v|
+!s101 -O0
+vtb_noc_system
+R1
+!i10b 1
+!s100 o4c8I`bzH<TMadD2ei=_i2
+IGK7hR>I7OiPmJSi>j9;:`2
+VCfZ[b0_?i=R:D=nOPJlT?2
+!s105 tb_noc_system_v_unit
+S1
+R2
+w1768802477
+8E:/Documents/DA1/code_noc/Quartus_proj/tb_noc_system.v
+FE:/Documents/DA1/code_noc/Quartus_proj/tb_noc_system.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1773383110.831000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/tb_noc_system.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/tb_noc_system.v|
+!s101 -O0
+R4
+R5
+vtile_core_wrapper
+R1
+IUPOLI<k8zQEgGHCD<@BQA3
+VZ0C_<N4?hmF`;iN7@=@mY2
+S1
+R2
+w1767620717
+8E:/Documents/DA1/code_noc/Quartus_proj/tile_core_wrapper.v
+FE:/Documents/DA1/code_noc/Quartus_proj/tile_core_wrapper.v
+L0 3
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 k;QfdH_^bjWXJ:[SH:j<B2
+!s105 tile_core_wrapper_v_unit
+!s85 0
+!s108 1773383106.877000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/tile_core_wrapper.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/tile_core_wrapper.v|
+!s101 -O0
+vtile_gpio_wrapper
+R1
+IPA2:imKAgRaDVI>2[mX@N1
+VQHeM>54fGiUl`IQ9KM9II1
+S1
+R2
+w1767627424
+8E:/Documents/DA1/code_noc/Quartus_proj/tile_gpio_wrapper.v
+FE:/Documents/DA1/code_noc/Quartus_proj/tile_gpio_wrapper.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 bSHVX;89T_BhMENj_ogSd2
+!s105 tile_gpio_wrapper_v_unit
+!s85 0
+!s108 1773383107.809000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/tile_gpio_wrapper.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/tile_gpio_wrapper.v|
+!s101 -O0
+vtile_led_matrix_wrapper
+R1
+I>abcc;UP=h7N_dDUI2R101
+Vh]dHB;P<;7IHJE>^3`3<K1
+S1
+R2
+w1767619584
+8E:/Documents/DA1/code_noc/Quartus_proj/tile_led_matrix_wrapper.v
+FE:/Documents/DA1/code_noc/Quartus_proj/tile_led_matrix_wrapper.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 =7klV_m^NY6iM[M]>RPkZ0
+!s105 tile_led_matrix_wrapper_v_unit
+!s85 0
+!s108 1773383107.650000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/tile_led_matrix_wrapper.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/tile_led_matrix_wrapper.v|
+!s101 -O0
+vtile_ram_wrapper
+R1
+INjzXJ3<Y?f8M5V45^<BQP2
+V]`SgLRVo2AiLgg?C]63[:1
+S1
+R2
+w1767619763
+8E:/Documents/DA1/code_noc/Quartus_proj/tile_ram_wrapper.v
+FE:/Documents/DA1/code_noc/Quartus_proj/tile_ram_wrapper.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 Cm=AA;Flm:Uh=X;SHKHiE0
+!s105 tile_ram_wrapper_v_unit
+!s85 0
+!s108 1773383106.988000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/tile_ram_wrapper.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/tile_ram_wrapper.v|
+!s101 -O0
+vtile_timer_wrapper
+R1
+IlH:YEmWn6i2dH6HQ>]dM;1
+VNn140;H;;chg:zoo3jdli3
+S1
+R2
+w1767619510
+8E:/Documents/DA1/code_noc/Quartus_proj/tile_timer_wrapper.v
+FE:/Documents/DA1/code_noc/Quartus_proj/tile_timer_wrapper.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 Z_DZW:BSk6RQV538I^<aS1
+!s105 tile_timer_wrapper_v_unit
+!s85 0
+!s108 1773383107.431000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/tile_timer_wrapper.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/tile_timer_wrapper.v|
+!s101 -O0
+vtile_uart_wrapper
+R1
+IS3?79[>e5ePYQkdd?Z;5[3
+V:>j0M69UW1b650^W<Q_4;2
+S1
+R2
+w1767624869
+8E:/Documents/DA1/code_noc/Quartus_proj/tile_uart_wrapper.v
+FE:/Documents/DA1/code_noc/Quartus_proj/tile_uart_wrapper.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 PcTH?FEDLMf_ba4d@1gT?0
+!s105 tile_uart_wrapper_v_unit
+!s85 0
+!s108 1773383108.141000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/tile_uart_wrapper.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/tile_uart_wrapper.v|
+!s101 -O0
+vtimer
+R1
+IKMaBMBA<lRY[7?bhW;EYG3
+Va4g=YjzaD]jZhH<S84Nb]0
+S1
+R2
+w1767583055
+8E:/Documents/DA1/code_noc/Quartus_proj/timer.v
+FE:/Documents/DA1/code_noc/Quartus_proj/timer.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 8a@z10Y2AQY:NkNRQY[[k2
+!s105 timer_v_unit
+!s85 0
+!s108 1773383107.210000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/timer.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/timer.v|
+!s101 -O0
+vuart
+R1
+I4CZXc`VHi^NW<=PECch_m2
+VR=Tg4nSCO1nI6oeV54^PV3
+S1
+R2
+w1767624493
+8E:/Documents/DA1/code_noc/Quartus_proj/uart.v
+FE:/Documents/DA1/code_noc/Quartus_proj/uart.v
+L0 9
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 EdROOjJh2mie6a`M4gA@43
+!s105 uart_v_unit
+!s85 0
+!s108 1773383107.980000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/uart.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/uart.v|
+!s101 -O0
+vuart_receiver
+R1
+IMG]>@ec6PUb:DlKYMhA`:0
+VZTdV2RA:K]H]E7jSR<7?K0
+S1
+R2
+w1767624384
+8E:/Documents/DA1/code_noc/Quartus_proj/uart_receiver.v
+FE:/Documents/DA1/code_noc/Quartus_proj/uart_receiver.v
+L0 9
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 DFHlBE^h0l:N8DoC5[cW72
+!s105 uart_receiver_v_unit
+!s85 0
+!s108 1773383107.856000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/uart_receiver.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/uart_receiver.v|
+!s101 -O0
+vuart_transmitter
+R1
+IcHg9zT:e@4QUkWJ>Mo4e20
+VYVILoVF2?9ER;M5la`[`l1
+S1
+R2
+w1767624456
+8E:/Documents/DA1/code_noc/Quartus_proj/uart_transmitter.v
+FE:/Documents/DA1/code_noc/Quartus_proj/uart_transmitter.v
+L0 9
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 3aRR8UH2^A93R`j1<V9KE1
+!s105 uart_transmitter_v_unit
+!s85 0
+!s108 1773383107.919000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/uart_transmitter.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/uart_transmitter.v|
+!s101 -O0
+vvcr_alloc_mac
+R1
+IM[F204G:mcZHKkc[VQ_n11
+VhhiH1TL^ikBh9T`V]5L2F1
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/vcr_alloc_mac.v
+FE:/Documents/DA1/code_noc/src_router/vcr_alloc_mac.v
+R8
+R9
+R12
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 >j3UFV]c2iJXk8h:JTFza0
+!s105 vcr_alloc_mac_v_unit
+!s85 0
+!s108 1773383108.615000
+!s107 E:/Documents/DA1/code_noc/src_router/vcr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/vcr_alloc_mac.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/vcr_alloc_mac.v|
+!s101 -O0
+vvcr_ip_ctrl_mac
+R1
+IK=Qk?o]M`G@h@CN<UgQ?82
+VD9@3P?P=iM1^5FQ2z]1J]3
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/vcr_ip_ctrl_mac.v
+FE:/Documents/DA1/code_noc/src_router/vcr_ip_ctrl_mac.v
+R8
+R9
+R11
+R12
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 ]DGj_b_ROBKnCR@[L6=dA2
+!s105 vcr_ip_ctrl_mac_v_unit
+!s85 0
+!s108 1773383108.552000
+!s107 E:/Documents/DA1/code_noc/src_router/vcr_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/vcr_ip_ctrl_mac.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/vcr_ip_ctrl_mac.v|
+!s101 -O0
+vvcr_ivc_ctrl
+R1
+IBXiaheVMUgGP0UiN0ojGl0
+VT^lf^i0zZjn<O_6=Z=X:L3
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/vcr_ivc_ctrl.v
+FE:/Documents/DA1/code_noc/src_router/vcr_ivc_ctrl.v
+R8
+R9
+R11
+R12
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 Agk]o6aZ`M]L3a9Uk=gXC3
+!s105 vcr_ivc_ctrl_v_unit
+!s85 0
+!s108 1773383108.494000
+!s107 E:/Documents/DA1/code_noc/src_router/vcr_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/vcr_ivc_ctrl.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/vcr_ivc_ctrl.v|
+!s101 -O0
+vvcr_op_ctrl_mac
+R1
+Id4EVPBlKzGR<N=PHL?c7;0
+VUm]ZLD?XnX[4PJ0PKNCeK3
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/vcr_op_ctrl_mac.v
+FE:/Documents/DA1/code_noc/src_router/vcr_op_ctrl_mac.v
+R8
+R9
+R11
+R12
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 3GL<:h3XnUGajZiVQmJPX2
+!s105 vcr_op_ctrl_mac_v_unit
+!s85 0
+!s108 1773383108.425000
+!s107 E:/Documents/DA1/code_noc/src_router/vcr_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/vcr_op_ctrl_mac.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/vcr_op_ctrl_mac.v|
+!s101 -O0
+vvcr_ovc_ctrl
+R1
+IQ^Sg;b9g?JKnnlfeFmjW12
+Ve_I6oYRHle:JeFcO=DbX71
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/vcr_ovc_ctrl.v
+FE:/Documents/DA1/code_noc/src_router/vcr_ovc_ctrl.v
+R8
+R9
+R11
+R12
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 ^8U`ho]h<>Yf^5ZP?cgJk0
+!s105 vcr_ovc_ctrl_v_unit
+!s85 0
+!s108 1773383108.377000
+!s107 E:/Documents/DA1/code_noc/src_router/vcr_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/vcr_ovc_ctrl.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/vcr_ovc_ctrl.v|
+!s101 -O0
+vvcr_sw_alloc_sep_if
+R1
+InJe>bbeH<4GQf[5d6kQJc1
+VT=8=O7XNdNSmd`g5AhX][1
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/vcr_sw_alloc_sep_if.v
+FE:/Documents/DA1/code_noc/src_router/vcr_sw_alloc_sep_if.v
+R8
+R9
+R12
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 R^QXSWi7T4Xlbj2S^5c>G2
+!s105 vcr_sw_alloc_sep_if_v_unit
+!s85 0
+!s108 1773383108.313000
+!s107 E:/Documents/DA1/code_noc/src_router/vcr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/vcr_sw_alloc_sep_if.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/vcr_sw_alloc_sep_if.v|
+!s101 -O0
+vvcr_top
+R1
+I=9FZ9SYfkI`BZ@khl=K?61
+V`dEI@b4mJXb3Veb@of0?F2
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/vcr_top.v
+FE:/Documents/DA1/code_noc/src_router/vcr_top.v
+R8
+R9
+R11
+R12
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 gR];eng4=@IMBCVIaDA4[2
+!s105 vcr_top_v_unit
+!s85 0
+!s108 1773383108.251000
+!s107 E:/Documents/DA1/code_noc/src_router/vcr_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/vcr_top.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/vcr_top.v|
+!s101 -O0
+vvcr_vc_alloc_sep_if
+R1
+I6:X9I9j;AmgfK1h;eoVGO3
+VToZlNQj]c6U8TLLQ_a`S03
+S1
+R2
+R6
+8E:/Documents/DA1/code_noc/src_router/vcr_vc_alloc_sep_if.v
+FE:/Documents/DA1/code_noc/src_router/vcr_vc_alloc_sep_if.v
+R8
+R9
+R11
+R12
+L0 32
+R3
+r1
+31
+R4
+R7
+!i10b 1
+!s100 1V>GAF>3jbj@3nj4VW7?B1
+!s105 vcr_vc_alloc_sep_if_v_unit
+!s85 0
+!s108 1773383108.188000
+!s107 E:/Documents/DA1/code_noc/src_router/vcr_constants.v|E:/Documents/DA1/code_noc/src_router/rtr_constants.v|E:/Documents/DA1/code_noc/src_router/c_constants.v|E:/Documents/DA1/code_noc/src_router/c_functions.v|E:/Documents/DA1/code_noc/src_router/vcr_vc_alloc_sep_if.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/src_router|E:/Documents/DA1/code_noc/src_router/vcr_vc_alloc_sep_if.v|
+!s101 -O0
+vwb_led_matrix_top
+R1
+Ib[lYNT>4]NeXD<W8R5<C:2
+V=dUg9P:UH4cLgHoP1NU@k0
+S1
+R2
+w1767586633
+8E:/Documents/DA1/code_noc/Quartus_proj/wb_led_matrix_top.v
+FE:/Documents/DA1/code_noc/Quartus_proj/wb_led_matrix_top.v
+L0 5
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 dISdK0Oi<H;LMaQjd``@o2
+!s105 wb_led_matrix_top_v_unit
+!s85 0
+!s108 1773383107.603000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/wb_led_matrix_top.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/wb_led_matrix_top.v|
+!s101 -O0
+vwb_ram_top
+R1
+IGe2KH]diVdzCbJ^R?WG8V2
+V6[[Nc12>ZYYBnRcf_LzdM1
+S1
+R2
+w1767620041
+8E:/Documents/DA1/code_noc/Quartus_proj/wb_ram_top.v
+FE:/Documents/DA1/code_noc/Quartus_proj/wb_ram_top.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 W4SJ_cz4Ce4dXB_a4;YZj0
+!s105 wb_ram_top_v_unit
+!s85 0
+!s108 1773383107.035000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/wb_ram_top.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/wb_ram_top.v|
+!s101 -O0
+vwb_timer_top
+R1
+I@B1ea4Wihd=TPdaG60IkT0
+VnGlTD3`>_9fbMjffh17iV0
+S1
+R2
+w1767583187
+8E:/Documents/DA1/code_noc/Quartus_proj/wb_timer_top.v
+FE:/Documents/DA1/code_noc/Quartus_proj/wb_timer_top.v
+L0 5
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 S9K9I:4K6jm;CachJo9S^2
+!s105 wb_timer_top_v_unit
+!s85 0
+!s108 1773383107.321000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/wb_timer_top.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/wb_timer_top.v|
+!s101 -O0
+vwb_uart_top
+R1
+I@E4QXCmiF5]K>IW;447o_2
+V5QNUkl?nV4@F<oQ@g015W3
+S1
+R2
+w1767624515
+8E:/Documents/DA1/code_noc/Quartus_proj/wb_uart_top.v
+FE:/Documents/DA1/code_noc/Quartus_proj/wb_uart_top.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 7HmzOfIci[WTicY2zU:5>1
+!s105 wb_uart_top_v_unit
+!s85 0
+!s108 1773383108.030000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/wb_uart_top.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/wb_uart_top.v|
+!s101 -O0
+vWishbone_Core_Adapter
+R1
+IR5jNY98ZF:mLKDDlHSFU00
+VP_b=]5AACVeWOFZU06e4:0
+S1
+R2
+w1767263697
+8E:/Documents/DA1/code_noc/Quartus_proj/Wishbone_Core_Adapter.v
+FE:/Documents/DA1/code_noc/Quartus_proj/Wishbone_Core_Adapter.v
+L0 3
+R3
+r1
+31
+R4
+R5
+n@wishbone_@core_@adapter
+!i10b 1
+!s100 5Fg16hD4_1CETZ>bPfFa_3
+!s105 Wishbone_Core_Adapter_v_unit
+!s85 0
+!s108 1773383106.830000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/Wishbone_Core_Adapter.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/Wishbone_Core_Adapter.v|
+!s101 -O0
+vwishbone_gpio
+R1
+I9M[[UeeAZdU<H?FB3eVD@0
+V:lifAeF@bmToK>fG93bim2
+S1
+R2
+w1767623970
+8E:/Documents/DA1/code_noc/Quartus_proj/wishbone_gpio.v
+FE:/Documents/DA1/code_noc/Quartus_proj/wishbone_gpio.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 h7ha6aNomMkgXSJeEL0J12
+!s105 wishbone_gpio_v_unit
+!s85 0
+!s108 1773383107.765000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/wishbone_gpio.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/wishbone_gpio.v|
+!s101 -O0
+vwishbone_slave_adapter_led_matrix
+R1
+IIk`Ra3Bmfo8R[G5J0=9f?1
+VDV^1Z2`HMoIWi_^U3KiSD0
+S1
+R2
+w1767586608
+8E:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_led_matrix.v
+FE:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_led_matrix.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 DND_KZ4k7Ic<7DPf`fKZa3
+!s105 wishbone_slave_adapter_led_matrix_v_unit
+!s85 0
+!s108 1773383107.540000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_led_matrix.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_led_matrix.v|
+!s101 -O0
+vwishbone_slave_adapter_timer
+R1
+ITCPSgc21@oDjhDb3GT`JL0
+VMTzMi52fE51AcWGXCM[223
+S1
+R2
+w1767583098
+8E:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_timer.v
+FE:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_timer.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 ;kiBlT^]bLjOG8:XgjPTC0
+!s105 wishbone_slave_adapter_timer_v_unit
+!s85 0
+!s108 1773383107.267000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_timer.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_timer.v|
+!s101 -O0
+vwishbone_slave_adapter_uart
+R1
+Ie57:Va?kU5O;7DAzf^c1M2
+VlAj;`Li368KD<37b>G@Va0
+S1
+R2
+w1767624540
+8E:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_uart.v
+FE:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_uart.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 cbYdf2^EU5=AjX[^4R53]1
+!s105 wishbone_slave_adapter_uart_v_unit
+!s85 0
+!s108 1773383108.077000
+!s107 E:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_uart.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Documents/DA1/code_noc/Quartus_proj|E:/Documents/DA1/code_noc/Quartus_proj/wishbone_slave_adapter_uart.v|
+!s101 -O0

@@ -1,0 +1,20 @@
+Fitter Status : Successful - Tue Jan 06 11:20:20 2026
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : noc_proj
+Top-level Entity Name : noc_system
+Family : Cyclone IV GX
+Device : EP4CGX150DF27I7AF
+Timing Models : Final
+Total logic elements : 61,113 / 149,760 ( 41 % )
+    Total combinational functions : 41,125 / 149,760 ( 27 % )
+    Dedicated logic registers : 43,652 / 149,760 ( 29 % )
+Total registers : 43652
+Total pins : 109 / 426 ( 26 % )
+Total virtual pins : 0
+Total memory bits : 0 / 6,635,520 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 720 ( 0 % )
+Total GXB Receiver Channel PCS : 0 / 8 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 8 ( 0 % )
+Total PLLs : 0 / 8 ( 0 % )

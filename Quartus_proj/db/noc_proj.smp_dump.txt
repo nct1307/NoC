@@ -1,0 +1,134 @@
+
+State Machine - |noc_system|tile_core_wrapper:nodes[8].core2_inst|ni_core:ni_inst|state
+Name state.S_WAIT_REPLY state.S_SEND_DATA state.S_SEND_HEAD state.S_IDLE 
+state.S_IDLE 0 0 0 0 
+state.S_SEND_HEAD 0 0 1 1 
+state.S_SEND_DATA 0 1 0 1 
+state.S_WAIT_REPLY 1 0 0 1 
+
+State Machine - |noc_system|tile_core_wrapper:nodes[8].core2_inst|Wishbone_Core_Adapter:adapter_inst|state
+Name state.BUS_REQUEST 
+state.IDLE 0 
+state.BUS_REQUEST 1 
+
+State Machine - |noc_system|tile_uart_wrapper:nodes[7].uart_inst|wb_uart_top:uart_system_inst|uart:uart_core_inst|uart_receiver:uart_rx_inst|r_SM_Main
+Name r_SM_Main.s_RX_STOP_BIT r_SM_Main.s_RX_DATA_BITS r_SM_Main.s_RX_START_BIT r_SM_Main.000 r_SM_Main.s_CLEANUP 
+r_SM_Main.000 0 0 0 0 0 
+r_SM_Main.s_RX_START_BIT 0 0 1 1 0 
+r_SM_Main.s_RX_DATA_BITS 0 1 0 1 0 
+r_SM_Main.s_RX_STOP_BIT 1 0 0 1 0 
+r_SM_Main.s_CLEANUP 0 0 0 1 1 
+
+State Machine - |noc_system|tile_uart_wrapper:nodes[7].uart_inst|wb_uart_top:uart_system_inst|uart:uart_core_inst|uart_transmitter:uart_tx_inst|r_SM_Main
+Name r_SM_Main.s_TX_STOP_BIT r_SM_Main.s_TX_DATA_BITS r_SM_Main.s_TX_START_BIT r_SM_Main.000 r_SM_Main.s_CLEANUP 
+r_SM_Main.000 0 0 0 0 0 
+r_SM_Main.s_TX_START_BIT 0 0 1 1 0 
+r_SM_Main.s_TX_DATA_BITS 0 1 0 1 0 
+r_SM_Main.s_TX_STOP_BIT 1 0 0 1 0 
+r_SM_Main.s_CLEANUP 0 0 0 1 1 
+
+State Machine - |noc_system|tile_uart_wrapper:nodes[7].uart_inst|wb_uart_top:uart_system_inst|wishbone_slave_adapter_uart:adapter_inst|state
+Name state.STATE_IDLE state.STATE_COOLDOWN state.STATE_ACK 
+state.STATE_IDLE 0 0 0 
+state.STATE_ACK 1 0 1 
+state.STATE_COOLDOWN 1 1 0 
+
+State Machine - |noc_system|tile_uart_wrapper:nodes[7].uart_inst|ni_ip:ni_uart_inst|state
+Name state.S_RESP_HEAD state.S_WAIT_IP state.S_RX_TAIL state.S_IDLE state.S_RESP_DATA 
+state.S_IDLE 0 0 0 0 0 
+state.S_RX_TAIL 0 0 1 1 0 
+state.S_WAIT_IP 0 1 0 1 0 
+state.S_RESP_HEAD 1 0 0 1 0 
+state.S_RESP_DATA 0 0 0 1 1 
+
+State Machine - |noc_system|tile_core_wrapper:nodes[6].core1_inst|ni_core:ni_inst|state
+Name state.S_WAIT_REPLY state.S_SEND_DATA state.S_SEND_HEAD state.S_IDLE 
+state.S_IDLE 0 0 0 0 
+state.S_SEND_HEAD 0 0 1 1 
+state.S_SEND_DATA 0 1 0 1 
+state.S_WAIT_REPLY 1 0 0 1 
+
+State Machine - |noc_system|tile_core_wrapper:nodes[6].core1_inst|Wishbone_Core_Adapter:adapter_inst|state
+Name state.BUS_REQUEST 
+state.IDLE 0 
+state.BUS_REQUEST 1 
+
+State Machine - |noc_system|tile_led_matrix_wrapper:nodes[5].led_matrix_inst|wb_led_matrix_top:led_system_inst|wishbone_slave_adapter_led_matrix:wb_slave_adapter|state
+Name state.STATE_IDLE state.STATE_COOLDOWN state.STATE_ACK 
+state.STATE_IDLE 0 0 0 
+state.STATE_ACK 1 0 1 
+state.STATE_COOLDOWN 1 1 0 
+
+State Machine - |noc_system|tile_led_matrix_wrapper:nodes[5].led_matrix_inst|ni_ip:ni_inst|state
+Name state.S_RESP_HEAD state.S_WAIT_IP state.S_RX_TAIL state.S_IDLE state.S_RESP_DATA 
+state.S_IDLE 0 0 0 0 0 
+state.S_RX_TAIL 0 0 1 1 0 
+state.S_WAIT_IP 0 1 0 1 0 
+state.S_RESP_HEAD 1 0 0 1 0 
+state.S_RESP_DATA 0 0 0 1 1 
+
+State Machine - |noc_system|tile_ram_wrapper:nodes[4].main_ram_inst|wb_ram_top:ram_inst|ram_slave_interface:adapter_inst|state
+Name state.STATE_IDLE state.STATE_COOLDOWN state.STATE_ACK 
+state.STATE_IDLE 0 0 0 
+state.STATE_ACK 1 0 1 
+state.STATE_COOLDOWN 1 1 0 
+
+State Machine - |noc_system|tile_ram_wrapper:nodes[4].main_ram_inst|ni_ip:ni_inst|state
+Name state.S_RESP_HEAD state.S_WAIT_IP state.S_RX_TAIL state.S_IDLE state.S_RESP_DATA 
+state.S_IDLE 0 0 0 0 0 
+state.S_RX_TAIL 0 0 1 1 0 
+state.S_WAIT_IP 0 1 0 1 0 
+state.S_RESP_HEAD 1 0 0 1 0 
+state.S_RESP_DATA 0 0 0 1 1 
+
+State Machine - |noc_system|tile_timer_wrapper:nodes[3].timer_inst|wb_timer_top:timer_system_inst|wishbone_slave_adapter_timer:wb_slave_adapter|state
+Name state.STATE_IDLE state.STATE_COOLDOWN state.STATE_ACK 
+state.STATE_IDLE 0 0 0 
+state.STATE_ACK 1 0 1 
+state.STATE_COOLDOWN 1 1 0 
+
+State Machine - |noc_system|tile_timer_wrapper:nodes[3].timer_inst|ni_ip:ni_timer|state
+Name state.S_RESP_HEAD state.S_WAIT_IP state.S_RX_TAIL state.S_IDLE state.S_RESP_DATA 
+state.S_IDLE 0 0 0 0 0 
+state.S_RX_TAIL 0 0 1 1 0 
+state.S_WAIT_IP 0 1 0 1 0 
+state.S_RESP_HEAD 1 0 0 1 0 
+state.S_RESP_DATA 0 0 0 1 1 
+
+State Machine - |noc_system|tile_core_wrapper:nodes[2].core3_inst|ni_core:ni_inst|state
+Name state.S_WAIT_REPLY state.S_SEND_DATA state.S_SEND_HEAD state.S_IDLE 
+state.S_IDLE 0 0 0 0 
+state.S_SEND_HEAD 0 0 1 1 
+state.S_SEND_DATA 0 1 0 1 
+state.S_WAIT_REPLY 1 0 0 1 
+
+State Machine - |noc_system|tile_core_wrapper:nodes[2].core3_inst|Wishbone_Core_Adapter:adapter_inst|state
+Name state.BUS_REQUEST 
+state.IDLE 0 
+state.BUS_REQUEST 1 
+
+State Machine - |noc_system|tile_gpio_wrapper:nodes[1].gpio_inst|wishbone_gpio:gpio_system_inst|state
+Name state.STATE_IDLE state.STATE_COOLDOWN state.STATE_ACK 
+state.STATE_IDLE 0 0 0 
+state.STATE_ACK 1 0 1 
+state.STATE_COOLDOWN 1 1 0 
+
+State Machine - |noc_system|tile_gpio_wrapper:nodes[1].gpio_inst|ni_ip:ni_gpio|state
+Name state.S_RESP_HEAD state.S_WAIT_IP state.S_RX_TAIL state.S_IDLE state.S_RESP_DATA 
+state.S_IDLE 0 0 0 0 0 
+state.S_RX_TAIL 0 0 1 1 0 
+state.S_WAIT_IP 0 1 0 1 0 
+state.S_RESP_HEAD 1 0 0 1 0 
+state.S_RESP_DATA 0 0 0 1 1 
+
+State Machine - |noc_system|tile_core_wrapper:nodes[0].core0_inst|ni_core:ni_inst|state
+Name state.S_WAIT_REPLY state.S_SEND_DATA state.S_SEND_HEAD state.S_IDLE 
+state.S_IDLE 0 0 0 0 
+state.S_SEND_HEAD 0 0 1 1 
+state.S_SEND_DATA 0 1 0 1 
+state.S_WAIT_REPLY 1 0 0 1 
+
+State Machine - |noc_system|tile_core_wrapper:nodes[0].core0_inst|Wishbone_Core_Adapter:adapter_inst|state
+Name state.BUS_REQUEST 
+state.IDLE 0 
+state.BUS_REQUEST 1 

@@ -1,0 +1,42 @@
+module led_matrix (
+    input wire clk,
+    input wire rst,
+    // Giao tiáº¿p vá»›i Slave Wrapper
+    input wire [1:0]  addr_i,    // Offset Ä‘á»‹a chá»‰ (vÃ­ dá»¥: 00, 01, 10)
+    input wire [31:0] write_data,
+    input wire        write_en,
+    output reg [31:0] read_data,
+    // NgÃµ ra thá»±c táº¿ Ä‘iá»?u khiá»ƒn pháº§n cá»©ng
+    output wire [31:0] led_pins
+);
+
+    reg [31:0] ctrl_reg; // Thanh ghi Ä‘iá»?u khiá»ƒn (vÃ­ dá»¥: bit 0 lÃ  Ä‘á»™ sÃ¡ng hoáº·c enable)
+    reg [31:0] data_reg; // Thanh ghi chá»©a máº«u LED (bit tÆ°Æ¡ng á»©ng vá»›i Ä‘Ã¨n)
+
+    // Logic Ghi (Write)
+    always @(posedge clk) begin
+        if (rst) begin
+            ctrl_reg <= 32'h0;
+            data_reg <= 32'h0;
+        end else if (write_en) begin
+            case (addr_i)
+                2'b00: ctrl_reg <= write_data; // Offset 0x0
+                2'b01: data_reg <= write_data; // Offset 0x4
+            endcase
+        end
+    end
+
+    // Logic Ä?á»?c (Read) - Ä?á»ƒ CPU kiá»ƒm tra xem Ä‘Ã£ ghi Ä‘Ãºng chÆ°a
+    always @(*) begin
+        case (addr_i)
+            2'b00: read_data = ctrl_reg;
+            2'b01: read_data = data_reg;
+            default: read_data = 32'h0;
+        endcase
+    end
+
+    // Logic xuáº¥t ra chÃ¢n LED
+    // Náº¿u bit 0 cá»§a ctrl_reg = 1 thÃ¬ xuáº¥t dá»¯ liá»‡u, ngÆ°á»£c láº¡i táº¯t háº¿t
+    assign led_pins = ctrl_reg[0] ? data_reg : 32'h0;
+
+endmodule

@@ -1,0 +1,148 @@
+`timescale 1ns / 1ps
+
+module tb_noc_system;
+
+    // =========================================================================
+    // 1. SIGNALS & PARAMETERS
+    // =========================================================================
+    reg clk;
+    reg rst; // Active High Reset
+    
+    // Các tín hiệu Output
+    //wire [8:0]  error_leds;
+    wire [31:0] fpga_led_matrix_out;
+    wire [31:0] fpga_timer_debug;
+    wire        uart_tx;
+
+    // Các tín hiệu Input/Inout
+    reg         uart_rx;       
+    wire [31:0] fpga_gpio_pins;
+
+    // Biến ghi file
+    integer f, i; 
+
+    // Chu kỳ clock (10ns = 100MHz)
+    localparam CLK_PERIOD = 10; 
+
+    // =========================================================================
+    // 2. INSTANTIATE UUT
+    // =========================================================================
+    noc_system uut (
+        .clk(clk), 
+        .rst(rst), 
+        .error_leds(error_leds),
+        .fpga_led_matrix_out(fpga_led_matrix_out),
+        .fpga_timer_debug(fpga_timer_debug),
+        .fpga_gpio_pins(fpga_gpio_pins),
+        .uart_tx(uart_tx),
+        .uart_rx(uart_rx)
+    );
+
+    // =========================================================================
+    // 3. CLOCK GENERATION
+    // =========================================================================
+    initial begin
+        clk = 0;
+        forever #(CLK_PERIOD / 2) clk = ~clk;
+    end
+
+    // =========================================================================
+    // 4. TEST SCENARIO & DUMP DATA
+    // =========================================================================
+    initial begin
+        // --- Setup ---
+        $display("==================================================");
+        $display("   STARTING NOC SYSTEM SIMULATION");
+        $display("==================================================");
+        
+        rst = 1;        
+        uart_rx = 1;    
+        
+        #100;           
+        
+        // --- Release Reset ---
+        @(negedge clk); 
+        rst = 0;        
+        
+        $display("[Time %0t] System Running...", $time);
+        
+        // Chờ Core chạy xong (50us)
+        #50000; 
+
+        // =====================================================================
+        // 5. DATA DUMPING (GHI FILE KẾT QUẢ)
+        // =====================================================================
+        $display("[Time %0t] Dumping data to file...", $time);
+        
+        f = $fopen("ket_qua_dump.txt", "w");
+        if (f == 0) begin
+            $display("Error: Cannot open file to write!");
+            $finish;
+        end
+
+        // --- CẬP NHẬT ĐƯỜNG DẪN THEO USER CUNG CẤP ---
+        // Format: uut.nodes[i].genblk1.instance_name.core_inst.rf_inst.rf[i]
+        // Lưu ý: 'genblk1' là tên tự động sinh ra cho khối begin-end không tên trong generate
+
+        // ----------------- DUMP CORE 0 (Node 0) -----------------
+        $fwrite(f, "################ CORE 0 (Node 0) ################\n");
+        $fwrite(f, "=== Register File (RF) ===\n");
+        for (i = 0; i < 32; i = i + 1) begin
+             // Đường dẫn chính xác bạn cung cấp
+             $fwrite(f, "R[%2d] = %h\n", i, uut.nodes[0].genblk1.core0_inst.core_inst.rf_inst.rf[i]); 
+        end
+        $fwrite(f, "\n");
+
+        // ----------------- DUMP CORE 1 (Node 6) -----------------
+        $fwrite(f, "################ CORE 1 (Node 6) ################\n");
+        $fwrite(f, "=== Register File (RF) ===\n");
+        for (i = 0; i < 32; i = i + 1) begin
+             // Node 6 cũng dùng genblk1 (do scope cục bộ mỗi vòng lặp)
+             $fwrite(f, "R[%2d] = %h\n", i, uut.nodes[6].genblk1.core1_inst.core_inst.rf_inst.rf[i]); 
+        end
+        $fwrite(f, "\n");
+
+        // ----------------- DUMP CORE 2 (Node 8) -----------------
+        $fwrite(f, "################ CORE 2 (Node 8) ################\n");
+        $fwrite(f, "=== Register File (RF) ===\n");
+        for (i = 0; i < 32; i = i + 1) begin
+             $fwrite(f, "R[%2d] = %h\n", i, uut.nodes[8].genblk1.core2_inst.core_inst.rf_inst.rf[i]); 
+        end
+        $fwrite(f, "\n");
+
+        // ----------------- DUMP CORE 3 (Node 2) -----------------
+        $fwrite(f, "################ CORE 3 (Node 2) ################\n");
+        $fwrite(f, "=== Register File (RF) ===\n");
+        for (i = 0; i < 32; i = i + 1) begin
+             $fwrite(f, "R[%2d] = %h\n", i, uut.nodes[2].genblk1.core3_inst.core_inst.rf_inst.rf[i]); 
+        end
+        
+        // ----------------- DUMP SHARED RAM (Node 4) -----------------
+        $fwrite(f, "\n=== RAM 4KB Content (Node 4) ===\n");
+        for (i = 0; i < 256; i = i + 1) begin
+            // RAM cũng nằm trong genblk1 của Node 4
+            // Bạn cần kiểm tra xem tên instance bên trong tile_ram_wrapper là 'ram_inst' hay tên khác
+            // Ví dụ ở đây tôi để là ram_inst.mem
+            $fwrite(f, "Addr %4h: %h\n", i*4, uut.nodes[4].genblk1.main_ram_inst.ram_inst.ram_inst.mem[i]);													
+        end
+
+        $fclose(f);
+        $display("[Time %0t] Dump finished. File 'ket_qua_dump.txt' created.", $time);
+
+        // --- Kết thúc ---
+        $display("==================================================");
+        $display("   SIMULATION FINISHED");
+        $display("==================================================");
+        $stop;
+    end
+
+    // =========================================================================
+    // 6. MONITORING
+    // =========================================================================
+    always @(posedge clk) begin
+        if (rst == 0 && error_leds != 9'b0) begin
+            $display("[ERROR] Router Error Detected at time %0t! Error LEDs: %b", $time, error_leds);
+        end
+    end
+
+endmodule
